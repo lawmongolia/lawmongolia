@@ -1,0 +1,24 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "lawmongolia",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-09-01",
+
+  // The statically exported site. `npm run build` writes this folder.
+  "assets": {
+    "directory": "./out",
+    "binding": "ASSETS",
+    // Serves /about from about.html, and redirects /about/ to /about.
+    "html_handling": "auto-trailing-slash",
+    // Unknown paths return the exported 404 page with a 404 status.
+    "not_found_handling": "404-page"
+  },
+
+  "observability": {
+    "enabled": true
+  }
+
+  // Secrets are NOT stored here. Set them with:
+  //   npx wrangler secret put CONTACT_FORM_WEBHOOK
+  //   npx wrangler secret put CONTACT_FORM_TOKEN
+}
