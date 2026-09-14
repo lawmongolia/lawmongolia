@@ -91,53 +91,6 @@ export function getAllArticleParams(): { lang: Lang; slug: string }[] {
   return readAll().map((a) => ({ lang: a.lang, slug: a.slug }));
 }
 
-/**
- * Topics the firm intends to publish. These are not articles and are shown
- * as a plainly labelled list of planned subjects, never with a date or byline.
- */
-export const PLANNED_TOPICS: L[] = [
-  {
-    en: 'Fintech regulation in Mongolia: key legal considerations',
-    mn: 'Монгол дахь финтекийн зохицуулалт: анхаарах эрх зүйн гол асуудлууд',
-  },
-  {
-    en: 'Corporate governance in Mongolia: practical issues for companies and investors',
-    mn: 'Компанийн засаглал: компани, хөрөнгө оруулагчдын практик асуудлууд',
-  },
-  {
-    en: 'Key legal risks in cross-border contracts with Mongolian counterparties',
-    mn: 'Монголын талтай байгуулах хил дамнасан гэрээний эрх зүйн гол эрсдэл',
-  },
-  {
-    en: 'Commercial contract risk management in Mongolia',
-    mn: 'Арилжааны гэрээний эрсдэлийн удирдлага',
-  },
-  {
-    en: 'Employment law issues for employers in Mongolia',
-    mn: 'Ажил олгогчид тулгардаг хөдөлмөрийн эрх зүйн асуудлууд',
-  },
-  {
-    en: 'Tax disputes in Mongolia: legal and procedural considerations',
-    mn: 'Татварын маргаан: эрх зүй, процессын асуудлууд',
-  },
-  {
-    en: 'Administrative decisions and judicial review in Mongolia',
-    mn: 'Захиргааны шийдвэр ба шүүхийн хяналт',
-  },
-  {
-    en: 'Technology and digital platform regulation in Mongolia',
-    mn: 'Технологи, дижитал платформын зохицуулалт',
-  },
-  {
-    en: 'Investing in Mongolia: corporate and regulatory considerations',
-    mn: 'Монголд хөрөнгө оруулах: компанийн болон зохицуулалтын асуудлууд',
-  },
-  {
-    en: 'Mining regulation in Mongolia: legal issues for businesses and investors',
-    mn: 'Уул уурхайн зохицуулалт: бизнес, хөрөнгө оруулагчдад тулгарах эрх зүйн асуудлууд',
-  },
-];
-
 export function formatDate(iso: string, lang: Lang): string {
   if (!iso) return '';
   const d = new Date(iso);

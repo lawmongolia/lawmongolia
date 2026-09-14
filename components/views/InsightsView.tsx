@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import { T } from '@/content/dictionary';
-import { getArticles, formatDate, PLANNED_TOPICS } from '@/lib/insights';
+import { getArticles, formatDate } from '@/lib/insights';
 import { PEOPLE } from '@/content/people';
 import { path, type Lang } from '@/lib/types';
-import { PageHeader, Breadcrumbs, Section } from '@/components/ui';
+import { PageHeader, Breadcrumbs } from '@/components/ui';
 
 export function InsightsView({ lang }: { lang: Lang }) {
   const articles = getArticles(lang);
@@ -48,16 +48,6 @@ export function InsightsView({ lang }: { lang: Lang }) {
         )}
       </div>
 
-      <Section tone="warm" className="mt-20">
-        <h2 className="t-label mb-6 font-sans">{T.insights.planned[lang]}</h2>
-        <ul className="max-w-3xl border-t border-rule">
-          {PLANNED_TOPICS.map((topic) => (
-            <li key={topic.en} className="border-b border-rule py-4 text-[1rem] text-muted">
-              {topic[lang]}
-            </li>
-          ))}
-        </ul>
-      </Section>
     </>
   );
 }

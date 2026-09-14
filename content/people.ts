@@ -55,8 +55,8 @@ export const PEOPLE: Person[] = [
       mn: '2015 оноос өмгөөлөгчөөр ажиллаж байна.',
     },
     positioning: {
-      en: 'Corporate, Commercial & Dispute Resolution Lawyer',
-      mn: 'Компанийн эрх зүй, гэрээ, арилжааны маргааны өмгөөлөгч',
+      en: 'Lawyer specialising in corporate law, contracts and dispute resolution',
+      mn: 'Компанийн эрх зүй, гэрээ, маргаан шийдвэрлэх чиглэлээр мэргэшсэн өмгөөлөгч',
     },
     secondary: {
       en: 'Fintech · Tax · Employment · Regulatory · Technology · Investment · Mining',
@@ -71,16 +71,14 @@ export const PEOPLE: Person[] = [
     telephone: '+976 7270 1650',
     overview: {
       en: [
-        'Itgel Galsanjamts is the Managing Partner of Corplex Consulting LLC and an attorney-at-law with more than 13 years of legal experience.',
-        'He advises and represents companies, investors and business owners on corporate and commercial law, commercial contracts, litigation and dispute resolution, tax, employment, administrative and regulatory matters, fintech and financial regulation, technology businesses, investment transactions and mining-related legal matters.',
-        'Admitted to practice law in 2015, his work combines preventive legal advice, contract and transaction support, regulatory analysis and dispute resolution. His approach focuses on identifying legal risk, structuring practical solutions and protecting clients’ interests through both preventive and enforcement strategies.',
-        'He works with businesses across technology, fintech and financial services, trade and distribution, food and services, transportation and logistics, manufacturing, mining and other commercial sectors.',
+        'Itgel Galsanjamts is the Managing Partner of Corplex Consulting LLC and has more than 13 years of legal experience. He has practised as an attorney-at-law since 2015.',
+        'He advises and represents clients on corporate and commercial law, contracts, court disputes, employment, tax, administrative law, fintech, technology, investment and mining.',
+        'He has worked with organisations in technology, finance, trade, food, transportation, logistics, manufacturing and mining.',
       ],
       mn: [
-        'Г.Итгэл нь “Корплекс Консалтинг” ХХК-ийн Managing Partner бөгөөд 13-аас дээш жилийн хууль зүйн туршлагатай өмгөөлөгч юм.',
-        'Тэрээр компани, хөрөнгө оруулагч, бизнес эрхлэгчдэд компанийн болон арилжааны эрх зүй, гэрээ хэлцэл, шүүхийн маргаан, татвар, хөдөлмөр, захиргааны болон зохицуулалтын эрх зүй, финтек, санхүүгийн зохицуулалт, технологийн бизнес, хөрөнгө оруулалт болон ашигт малтмалын эрх зүйн асуудлаар хууль зүйн зөвлөгөө, өмгөөллийн үйлчилгээ үзүүлдэг.',
-        '2015 оноос өмгөөлөгчөөр ажиллаж байгаа бөгөөд түүний практик нь хууль зүйн эрсдэлийг урьдчилан тодорхойлох, гэрээ хэлцлийг зөв бүтэцтэй боловсруулах, зохицуулалтын шаардлагыг үнэлэх, маргаанаас урьдчилан сэргийлэх болон үүссэн маргаанд үйлчлүүлэгчийн эрх ашгийг хамгаалах ажиллагааг хослуулдаг.',
-        'Технологи, финтек ба санхүүгийн үйлчилгээ, худалдаа, дистрибьюшн, хүнс үйлчилгээ, тээвэр логистик, үйлдвэрлэл, уул уурхай болон бизнесийн бусад салбарын байгууллагуудтай ажилласан туршлагатай.',
+        'Г.Итгэл нь “Корплекс Консалтинг” ХХК-ийн Managing Partner бөгөөд 13-аас дээш жилийн хууль зүйн туршлагатай. 2015 оноос өмгөөлөгчөөр ажиллаж байна.',
+        'Компанийн болон арилжааны эрх зүй, гэрээ хэлцэл, шүүхийн маргаан, хөдөлмөр, татвар, захиргааны эрх зүй, финтек, технологи, хөрөнгө оруулалт болон ашигт малтмалын чиглэлээр зөвлөгөө, өмгөөллийн үйлчилгээ үзүүлдэг.',
+        'Технологи, санхүү, худалдаа, хүнс, тээвэр, логистик, үйлдвэрлэл, уул уурхайн салбарын байгууллагуудтай ажилласан туршлагатай.',
       ],
     },
     expertise: {
@@ -137,10 +135,10 @@ export const PEOPLE: Person[] = [
      */
     professional: {
       en: [
-        'His experience includes senior in-house legal, compliance and governance responsibilities as well as private legal practice.',
+        'Experience in in-house legal work, compliance and corporate governance, as well as in private legal practice.',
       ],
       mn: [
-        'Түүний туршлага нь компанийн дотоод хууль зүй, комплаенс, засаглалын удирдах түвшний ажил болон өмгөөллийн практикийг хослуулдаг.',
+        'Компанийн дотоод хууль зүй, комплаенс, компанийн засаглал болон өмгөөллийн чиглэлээр ажилласан туршлагатай.',
       ],
     },
     education: {

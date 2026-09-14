@@ -29,7 +29,6 @@ export function AboutView({ lang }: { lang: Lang }) {
         <div className="grid gap-10 lg:grid-cols-12 lg:gap-16">
           <div className="lg:col-span-5">
             <h2 className="t-h2">{T.about.approachHeading[lang]}</h2>
-            <p className="t-lede mt-5 max-w-prose">{T.about.approachBody[lang]}</p>
           </div>
           <div className="lg:col-span-7">
             <RuleList items={T.about.approach[lang].map((x) => <span key={x}>{x}</span>)} />

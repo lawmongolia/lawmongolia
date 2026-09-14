@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Logo } from './Logo';
 import { T } from '@/content/dictionary';
-import { CONTACT, OFFICE, BRAND, BRAND_LINE } from '@/lib/site';
+import { CONTACT, OFFICE, BRAND, ENTITY } from '@/lib/site';
 import { path, type Lang } from '@/lib/types';
 import { isPlaceholder } from '@/content/people';
 
@@ -26,8 +26,8 @@ export function Footer({ lang }: { lang: Lang }) {
           <Link href={path(lang, '/')} aria-label={T.nav.home[lang]}>
             <Logo variant="wordmark" />
           </Link>
-          <p className="field-mute mt-4 max-w-[32ch] font-sans text-[0.8125rem] leading-relaxed">
-            {BRAND_LINE[lang]}
+          <p className="field-mute mt-4 font-sans text-[0.875rem]">
+            {ENTITY[lang]}
           </p>
         </div>
 

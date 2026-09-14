@@ -9,9 +9,10 @@ export const SITE_URL = (
 ).replace(/\/$/, '');
 
 /**
- * LawMongolia is a public-facing brand, not a legal entity. The provider of
- * legal services, and the contracting party in every engagement, is
- * Corplex Consulting LLC. Nothing on this site may imply otherwise.
+ * LawMongolia is the name the website appears under. The provider of legal
+ * services, and the contracting party in every engagement, is Corplex
+ * Consulting LLC — named on the About, Contact, Privacy and Legal Notice
+ * pages and in the footer, not explained on the marketing pages.
  */
 export const BRAND = {
   name: 'LawMongolia',
@@ -26,10 +27,10 @@ export const ENTITY = {
   since: 2022,
 } as const;
 
-/** The brand-to-entity line, shown under the logo and in the legal pages. */
+/** Short descriptor shown beside the logo. Not an explanation of the brand. */
 export const BRAND_LINE: L = {
-  en: 'Legal services by Corplex Consulting LLC',
-  mn: '“Корплекс Консалтинг” ХХК-ийн хууль зүйн үйлчилгээний брэнд',
+  en: 'Corporate law · Contracts · Dispute resolution',
+  mn: 'Компанийн эрх зүй · Гэрээ · Маргаан шийдвэрлэх',
 };
 
 /**
@@ -73,6 +74,6 @@ export const VERIFICATION = {
 } as const;
 
 export const TAGLINE: L = {
-  en: 'Corporate, commercial and dispute resolution legal services in Mongolia',
-  mn: 'Компанийн эрх зүй, гэрээ, маргаан шийдвэрлэх чиглэлийн хууль зүйн үйлчилгээ',
+  en: 'Legal advice and representation for business',
+  mn: 'Бизнесийн хууль зүйн зөвлөгөө, өмгөөллийн үйлчилгээ',
 };

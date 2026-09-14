@@ -140,9 +140,6 @@ export function HomeView({ lang }: { lang: Lang }) {
       <Section tone="warm">
         <SectionHeading>{T.home.clientsHeading[lang]}</SectionHeading>
         <ClientWall lang={lang} />
-        <p className="mt-6 max-w-prose font-sans text-[0.8125rem] text-muted">
-          {T.home.clientsNote[lang]}
-        </p>
       </Section>
 
       {/* Insights ------------------------------------------------------ */}

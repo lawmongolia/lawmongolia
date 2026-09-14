@@ -16,17 +16,17 @@ export const SERVICES: Service[] = [
     slug: 'corporate-commercial',
     title: { en: 'Corporate & Commercial', mn: 'Компанийн болон арилжааны эрх зүй' },
     lead: {
-      en: 'Company formation, governance, shareholder arrangements and day-to-day corporate legal advice.',
-      mn: 'Компани үүсгэн байгуулах, засаглал, хувьцаа эзэмшигчдийн харилцаа, өдөр тутмын компанийн эрх зүйн зөвлөгөө.',
+      en: 'Advice on company formation, governance, shareholder matters, investment and day-to-day corporate legal questions.',
+      mn: "Компани үүсгэн байгуулах, засаглал, хувьцаа эзэмшигчдийн харилцаа, хөрөнгө оруулалт болон компанийн өдөр тутмын эрх зүйн асуудлаар зөвлөгөө үзүүлнэ.",
     },
     body: {
       en: [
-        'We advise companies, founders and investors on how a business is structured, governed and operated under Mongolian law. This includes the decisions taken at formation and the ones taken years later, when ownership changes or a group is reorganised.',
-        'Most corporate problems are governance problems that were not documented early enough. Our work focuses on putting the constitutional documents, shareholder arrangements and board procedures in a state where they answer the question before the dispute arises.',
+        "We advise on corporate governance matters: company formation, shareholding structure, the company charter, and shareholder and board resolutions.",
+        "We also prepare and review the legal documents required for reorganisations, investments, share purchases and other commercial transactions.",
       ],
       mn: [
-        'Бид компани, үүсгэн байгуулагч, хөрөнгө оруулагчдад бизнесээ Монгол Улсын хуулийн хүрээнд хэрхэн бүтэцжүүлэх, удирдах, үйл ажиллагаа явуулах талаар зөвлөгөө өгдөг. Энэ нь үүсгэн байгуулах үед гаргах шийдвэрээс эхлээд хожим эзэмшил өөрчлөгдөх, групп өөрчлөн байгуулагдах үеийн шийдвэрийг хамарна.',
-        'Компанийн ихэнх маргаан нь цаг тухайд нь баримтжуулаагүй засаглалын асуудлаас үүддэг. Бидний ажил нь дүрэм, хувьцаа эзэмшигчдийн гэрээ, төлөөлөн удирдах зөвлөлийн журмыг маргаан үүсэхээс өмнө хариултаа агуулсан байдалд хүргэхэд чиглэдэг.',
+        "Компани үүсгэн байгуулах, хувьцаа эзэмшлийн бүтэц, компанийн дүрэм, хувьцаа эзэмшигчдийн болон төлөөлөн удирдах зөвлөлийн шийдвэр зэрэг компанийн засаглалын асуудлаар зөвлөгөө өгнө.",
+        "Мөн компанийн өөрчлөн байгуулалт, хөрөнгө оруулалт, хувьцаа худалдах, худалдан авах болон бусад арилжааны хэлцэлд шаардлагатай эрх зүйн баримт бичгийг боловсруулж, хянана.",
       ],
     },
     covers: {
@@ -64,17 +64,17 @@ export const SERVICES: Service[] = [
     slug: 'contracts',
     title: { en: 'Contracts & Commercial Transactions', mn: 'Гэрээ, арилжааны хэлцэл' },
     lead: {
-      en: 'Drafting, review and negotiation of domestic and cross-border commercial agreements.',
-      mn: 'Дотоодын болон хил дамнасан арилжааны гэрээг боловсруулах, хянах, хэлэлцэн тохирох.',
+      en: 'Legal advice on drafting, reviewing and negotiating domestic and international contracts.',
+      mn: "Дотоодын болон олон улсын гэрээ, хэлцлийг боловсруулах, хянах, хэлэлцээр хийхэд хууль зүйн зөвлөгөө үзүүлнэ.",
     },
     body: {
       en: [
-        'A commercial contract is read twice: once when it is signed, and once when something has gone wrong. We draft and negotiate agreements with the second reading in mind, so that risk allocation, remedies and termination are workable rather than decorative.',
-        'We work in Mongolian and English, including on multi-party negotiations where drafts pass between counsel in tracked changes and the commercial position shifts between rounds.',
+        "When drafting a contract we focus on setting out clearly the rights and obligations of the parties, payment terms, liability, the grounds on which the contract ends, and the dispute resolution procedure.",
+        "We draft and review contracts in Mongolian and English, propose amendments, and provide legal support during negotiations.",
       ],
       mn: [
-        'Арилжааны гэрээг хоёр удаа уншдаг: нэг нь гарын үсэг зурах үед, нөгөө нь асуудал үүссэн үед. Бид хоёр дахь уншилтыг харгалзан гэрээг боловсруулж, хэлэлцэн тохирдог. Ингэснээр эрсдэлийн хуваарилалт, эрх зүйн хамгаалалт, гэрээ цуцлах нөхцөл нь бодитоор хэрэгжих боломжтой болно.',
-        'Бид монгол, англи хос хэлээр ажиллана. Үүнд төслүүд нь өмгөөлөгчдийн хооронд залруулгын горимоор дамжиж, арилжааны нөхцөл үе шат бүрт өөрчлөгддөг олон талт хэлэлцээр орно.',
+        "Гэрээ боловсруулахдаа талуудын эрх, үүрэг, төлбөрийн нөхцөл, хариуцлага, гэрээ дуусгавар болох үндэслэл болон маргаан шийдвэрлэх журмыг тодорхой тусгахад анхаарна.",
+        "Монгол болон англи хэлээр гэрээ боловсруулах, хянах, нэмэлт өөрчлөлтийн санал гаргах болон гэрээний хэлэлцээрт хууль зүйн дэмжлэг үзүүлнэ.",
       ],
     },
     covers: {
@@ -112,17 +112,17 @@ export const SERVICES: Service[] = [
     slug: 'litigation-dispute-resolution',
     title: { en: 'Litigation & Dispute Resolution', mn: 'Шүүхийн маргаан, маргаан шийдвэрлэх' },
     lead: {
-      en: 'Assessment, negotiation and representation in civil, commercial and administrative disputes.',
-      mn: 'Иргэний, арилжааны болон захиргааны маргаанд үнэлгээ хийх, хэлэлцээр хийх, төлөөлөн оролцох.',
+      en: 'Legal advice in civil, commercial and administrative disputes, and representation in court and other proceedings.',
+      mn: "Иргэний, арилжааны болон захиргааны маргаанд хууль зүйн зөвлөгөө өгч, шүүх болон бусад ажиллагаанд төлөөлөн оролцоно.",
     },
     body: {
       en: [
-        'Disputes are assessed before they are argued. We begin with a candid view of the legal position, the evidence actually available and what enforcement would look like if a judgment were obtained, because those three things determine whether litigation is the right instrument at all.',
-        'Where proceedings are the right course, we prepare and represent the client through them. Where they are not, settlement negotiated from an accurate reading of the position is usually the better commercial outcome.',
+        "Where a dispute has arisen, we assess the legal basis of the matter, the available evidence and the likely outcomes, and advise on what to do next.",
+        "Where appropriate we conduct negotiations, prepare settlement terms, draft claims and other documents, and represent the client in court.",
       ],
       mn: [
-        'Маргааныг маргалдахаас өмнө үнэлдэг. Бид эрх зүйн байр суурь, бодитоор байгаа нотлох баримт, шийдвэр гарсан тохиолдолд биелүүлэх ажиллагаа хэрхэн явагдах гэсэн гурван зүйлийг шулуухан үнэлэхээс эхэлдэг. Учир нь эдгээр нь шүүхэд хандах нь зөв арга мөн эсэхийг тодорхойлно.',
-        'Шүүхийн ажиллагаа зөв арга бол бид бэлтгэж, үйлчлүүлэгчээ төлөөлөн оролцоно. Харин зөв арга биш бол байр сууриа үнэн зөв үнэлсний үндсэн дээр хийсэн эвлэрэл нь ихэвчлэн арилжааны талаасаа илүү үр дүнтэй байдаг.',
+        "Маргаан үүссэн тохиолдолд тухайн асуудлын хууль зүйн үндэслэл, нотлох баримт, боломжит үр дагаврыг үнэлж, цаашид авах арга хэмжээний талаар зөвлөгөө өгнө.",
+        "Шаардлагатай тохиолдолд хэлэлцээр хийх, эвлэрэх нөхцөл боловсруулах, нэхэмжлэл болон бусад баримт бичиг бэлтгэх, шүүхэд төлөөлөн оролцох үйлчилгээ үзүүлнэ.",
       ],
     },
     covers: {
@@ -160,17 +160,17 @@ export const SERVICES: Service[] = [
     slug: 'tax',
     title: { en: 'Tax', mn: 'Татварын эрх зүй' },
     lead: {
-      en: 'The legal side of tax: transaction consequences, contractual allocation, assessments and disputes.',
-      mn: 'Татварын эрх зүйн тал: хэлцлийн үр дагавар, гэрээгээр хуваарилах, ногдуулалт, маргаан.',
+      en: 'Legal advice on the application of tax law, the tax consequences of transactions, and tax disputes.',
+      mn: "Татварын хууль тогтоомжийн хэрэглээ, гэрээ хэлцлийн татварын үр дагавар болон татварын маргааны асуудлаар хууль зүйн зөвлөгөө үзүүлнэ.",
     },
     body: {
       en: [
-        'We advise on tax as a matter of law rather than of accounting. That means the tax consequences of a transaction structure, how obligations are allocated between contracting parties, and how an assessment or a decision of the tax authority can be challenged.',
-        'Corplex Consulting LLC is a legal practice. It does not provide accounting, bookkeeping or audit services, and works alongside the client’s own accountants and tax advisers where those services are needed.',
+        "We advise on the application of tax law, the tax obligations arising from transactions, tax risk, and matters connected with decisions of the tax authority.",
+        "We act on challenges to tax assessments and decisions, and represent clients before administrative bodies and the courts in tax disputes.",
       ],
       mn: [
-        'Бид татварыг нягтлан бодох бүртгэлийн бус эрх зүйн асуудал болгон авч үздэг. Өөрөөр хэлбэл хэлцлийн бүтцээс үүсэх татварын үр дагавар, гэрээний талуудын хооронд үүргийг хэрхэн хуваарилах, татварын албаны ногдуулалт болон шийдвэрийг хэрхэн эс зөвшөөрөх асуудлыг хамарна.',
-        '“Корплекс Консалтинг” ХХК нь хууль зүйн үйлчилгээ эрхэлдэг. Нягтлан бодох бүртгэл, аудитын үйлчилгээ үзүүлэхгүй бөгөөд шаардлагатай тохиолдолд үйлчлүүлэгчийн нягтлан бодогч, татварын зөвлөхтэй хамтран ажиллана.',
+        "Татварын хууль тогтоомжийн хэрэглээ, гэрээ хэлцлээс үүсэх татварын үүрэг, татварын эрсдэл болон татварын байгууллагын шийдвэртэй холбоотой асуудлаар зөвлөгөө өгнө.",
+        "Татварын акт, шийдвэрийг эс зөвшөөрөх болон татварын маргаанд захиргааны байгууллага, шүүхэд төлөөлөн оролцоно.",
       ],
     },
     covers: {
@@ -204,17 +204,17 @@ export const SERVICES: Service[] = [
     slug: 'employment-labour',
     title: { en: 'Employment & Labour', mn: 'Хөдөлмөрийн эрх зүй' },
     lead: {
-      en: 'Employment documentation, internal rules, termination procedure and labour disputes.',
-      mn: 'Хөдөлмөрийн баримт бичиг, дотоод журам, ажлаас чөлөөлөх ажиллагаа, хөдөлмөрийн маргаан.',
+      en: 'Advice on employment contracts, internal rules, disciplinary procedure, termination and employment disputes.',
+      mn: "Хөдөлмөрийн гэрээ, дотоод журам, сахилгын ажиллагаа, ажлаас чөлөөлөх болон хөдөлмөрийн маргааны асуудлаар зөвлөгөө үзүүлнэ.",
     },
     body: {
       en: [
-        'Employment law in Mongolia is procedural. An employer with a sound commercial reason for a decision can still lose a dispute if the steps leading to that decision were not followed and recorded.',
-        'We work on the documentation and the procedure together: contracts and internal rules that reflect how the organisation actually operates, and disciplinary or termination processes conducted in a way that will hold up if examined.',
+        "We draft and review employment contracts, internal rules, orders and other employer documentation.",
+        "We advise on disciplinary measures, termination of employment, restructuring and employment disputes, and represent clients in court where required.",
       ],
       mn: [
-        'Монголын хөдөлмөрийн эрх зүй нь процедурын шинжтэй. Ажил олгогч шийдвэр гаргах үндэслэлтэй байсан ч тэр шийдвэрт хүрэх алхмуудыг дагаж, баримтжуулаагүй бол маргаанд ялагдаж болно.',
-        'Бид баримт бичиг, ажиллагаа хоёрыг хамтад нь авч үзнэ: байгууллагын бодит үйл ажиллагааг тусгасан гэрээ, дотоод журам, мөн шалгалтад тэсвэрлэх чадвартай сахилгын болон ажлаас чөлөөлөх ажиллагаа.',
+        "Ажил олгогчийн хөдөлмөрийн гэрээ, дотоод журам, тушаал шийдвэр болон бусад баримт бичгийг боловсруулах, хянах үйлчилгээ үзүүлнэ.",
+        "Мөн сахилгын шийтгэл, хөдөлмөрийн гэрээ дуусгавар болгох, бүтцийн өөрчлөлт болон хөдөлмөрийн маргаантай холбоотой асуудлаар зөвлөгөө өгч, шаардлагатай тохиолдолд шүүхэд төлөөлөн оролцоно.",
       ],
     },
     covers: {
@@ -250,17 +250,17 @@ export const SERVICES: Service[] = [
     slug: 'administrative-regulatory',
     title: { en: 'Administrative & Regulatory Law', mn: 'Захиргааны болон зохицуулалтын эрх зүй' },
     lead: {
-      en: 'Licences, permits, regulatory proceedings and challenges to administrative acts.',
-      mn: 'Тусгай зөвшөөрөл, зөвшөөрөл, зохицуулалтын ажиллагаа, захиргааны актыг эс зөвшөөрөх.',
+      en: 'Advice on licences, permits, decisions of government authorities and administrative disputes.',
+      mn: "Тусгай зөвшөөрөл, зөвшөөрөл, төрийн байгууллагын шийдвэр болон захиргааны маргааны асуудлаар зөвлөгөө үзүүлнэ.",
     },
     body: {
       en: [
-        'Businesses in regulated sectors deal with government authorities continuously rather than occasionally. We advise on licence and permit requirements, on how to respond to a regulatory inquiry, and on when an administrative act should be challenged rather than accommodated.',
-        'Administrative matters have short procedural deadlines. Involving counsel at the point the decision is received, rather than after the period to object has passed, materially changes the options available.',
+        "We advise on licences, permits and sector regulatory requirements.",
+        "We act on challenges to decisions and procedures of government and regulatory bodies, file complaints, and represent clients before the administrative courts.",
       ],
       mn: [
-        'Зохицуулалттай салбарын бизнесүүд төрийн байгууллагатай үе үе биш, тасралтгүй харилцдаг. Бид тусгай зөвшөөрөл, зөвшөөрлийн шаардлага, зохицуулагчийн шалгалтад хэрхэн хариу өгөх, захиргааны актыг эс зөвшөөрөх үү эсвэл дагах уу гэдгийг зөвлөнө.',
-        'Захиргааны асуудалд гомдол гаргах хугацаа богино байдаг. Шийдвэр хүлээн авсан даруйд өмгөөлөгчийг татан оролцуулах нь хугацаа өнгөрсний дараа хандахаас хамаагүй өргөн сонголт үлдээнэ.',
+        "Тусгай зөвшөөрөл, зөвшөөрөл болон салбарын зохицуулалтын шаардлагатай холбоотой асуудлаар зөвлөгөө өгнө.",
+        "Төрийн болон зохицуулах байгууллагын шийдвэр, ажиллагааг эс зөвшөөрөх, гомдол гаргах болон захиргааны хэргийн шүүхэд төлөөлөн оролцох үйлчилгээ үзүүлнэ.",
       ],
     },
     covers: {
@@ -294,17 +294,17 @@ export const SERVICES: Service[] = [
     slug: 'fintech-financial-regulation',
     title: { en: 'Fintech & Financial Regulation', mn: 'Финтек, санхүүгийн зохицуулалт' },
     lead: {
-      en: 'Regulatory analysis, licensing and product structuring for non-bank financial and payment businesses.',
-      mn: 'Банк бус санхүү, төлбөрийн бизнесийн зохицуулалтын дүн шинжилгээ, тусгай зөвшөөрөл, бүтээгдэхүүний бүтэц.',
+      en: 'Advice on the regulation of non-bank finance, lending, payment services, electronic money and financial products.',
+      mn: "Банк бус санхүү, зээл, төлбөрийн үйлчилгээ, цахим мөнгө болон санхүүгийн бүтээгдэхүүний эрх зүйн зохицуулалтын асуудлаар зөвлөгөө үзүүлнэ.",
     },
     body: {
       en: [
-        'Financial products are easier to change before launch than after. We analyse a proposed model against the applicable regulatory perimeter early, so that the licensing route, the documentation and the consumer-facing terms are settled before development is complete.',
-        'The work covers lending, payment services, electronic money and adjacent digital financial products, together with the internal documentation that a regulator will expect to see in an examination.',
+        "We draft and review the structure of fintech and financial services businesses, licence applications, product terms, consumer contracts and related documentation.",
+        "We advise on the legal and regulatory requirements that apply to lending, payment services, electronic money and other financial products.",
       ],
       mn: [
-        'Санхүүгийн бүтээгдэхүүнийг зах зээлд гаргахаас өмнө өөрчлөх нь дараа өөрчлөхөөс амархан. Бид санал болгож буй загварыг холбогдох зохицуулалтын хүрээнд эрт дүгнэж, тусгай зөвшөөрлийн зам, баримт бичиг, хэрэглэгчид зориулсан нөхцөлийг хөгжүүлэлт дуусахаас өмнө тодорхой болгоно.',
-        'Энэ ажил нь зээл, төлбөрийн үйлчилгээ, цахим мөнгө болон түүнтэй хиллэдэг дижитал санхүүгийн бүтээгдэхүүн, мөн зохицуулагч шалгалтаар шаардах дотоод баримт бичгийг хамарна.',
+        "Финтек болон санхүүгийн үйлчилгээний бизнесийн бүтэц, тусгай зөвшөөрөл, бүтээгдэхүүний нөхцөл, хэрэглэгчтэй байгуулах гэрээ болон холбогдох баримт бичгийг боловсруулах, хянах үйлчилгээ үзүүлнэ.",
+        "Мөн зээл, төлбөрийн үйлчилгээ, цахим мөнгө болон бусад санхүүгийн бүтээгдэхүүнд тавигдах хууль, зохицуулалтын шаардлагын талаар зөвлөгөө өгнө.",
       ],
     },
     covers: {
@@ -340,17 +340,17 @@ export const SERVICES: Service[] = [
     slug: 'technology-digital-platforms',
     title: { en: 'Technology & Digital Platforms', mn: 'Технологи, дижитал платформ' },
     lead: {
-      en: 'Technology contracts, platform terms and the legal architecture of digital businesses.',
-      mn: 'Технологийн гэрээ, платформын нөхцөл, дижитал бизнесийн эрх зүйн бүтэц.',
+      en: 'Advice on technology contracts, online platforms, applications and the legal matters of digital business.',
+      mn: "Технологийн гэрээ, цахим платформ, аппликэйшн болон дижитал бизнесийн эрх зүйн асуудлаар зөвлөгөө үзүүлнэ.",
     },
     body: {
       en: [
-        'Platform businesses carry legal risk in places that traditional contracting does not reach: the terms accepted by users, the relationship with suppliers who are not employees, and the treatment of data generated by the service.',
-        'We advise on the agreements that hold a technology business together, from procurement and software licensing through to the public-facing terms that govern the platform itself.',
+        "We draft and review contracts, terms of service and other legal documents for software, technology services, online platforms, applications and e-commerce.",
+        "We advise on the relationships between platform users, service providers and other participants, and on data, intellectual property and liability.",
       ],
       mn: [
-        'Платформын бизнес нь уламжлалт гэрээ хамардаггүй хэсэгт эрх зүйн эрсдэл үүрдэг: хэрэглэгчийн хүлээн зөвшөөрсөн нөхцөл, ажилтан бус нийлүүлэгчтэй тогтох харилцаа, үйлчилгээнээс үүсэх өгөгдлийг хэрхэн зохицуулах зэрэг.',
-        'Бид технологийн бизнесийг холбож байдаг гэрээнүүд буюу худалдан авалт, программ хангамжийн лицензээс эхлээд платформыг өөрийг нь зохицуулах олон нийтэд нээлттэй нөхцөл хүртэлх асуудлаар зөвлөнө.',
+        "Программ хангамж, технологийн үйлчилгээ, цахим платформ, аппликэйшн болон цахим худалдаатай холбоотой гэрээ, үйлчилгээний нөхцөл болон бусад эрх зүйн баримт бичгийг боловсруулж, хянана.",
+        "Мөн платформын хэрэглэгч, үйлчилгээ үзүүлэгч болон бусад оролцогч талуудын харилцаа, өгөгдөл, оюуны өмч болон хариуцлагын асуудлаар зөвлөгөө өгнө.",
       ],
     },
     covers: {
@@ -369,7 +369,7 @@ export const SERVICES: Service[] = [
       ],
       mn: [
         'Технологи, программ хангамжийн гэрээ',
-        'SaaS хэлбэрийн зохицуулалт',
+        "Үүлэн программ хангамжийн үйлчилгээний гэрээ",
         'Технологийн худалдан авалт',
         'Дижитал платформ, аппликэйшнд суурилсан бизнес',
         'Платформ ашиглах нөхцөл',
@@ -386,17 +386,17 @@ export const SERVICES: Service[] = [
     slug: 'investment-cross-border',
     title: { en: 'Investment & Cross-Border Transactions', mn: 'Хөрөнгө оруулалт, хил дамнасан хэлцэл' },
     lead: {
-      en: 'Investment structuring, transaction documentation and closing support for cross-border deals.',
-      mn: 'Хөрөнгө оруулалтын бүтэц, хэлцлийн баримт бичиг, хил дамнасан хэлцлийг хаах дэмжлэг.',
+      en: 'Advice on the structure, contracts, due diligence and implementation of foreign investment and cross-border transactions.',
+      mn: "Гадаадын хөрөнгө оруулалт болон хил дамнасан хэлцлийн бүтэц, гэрээ, эрх зүйн шалгалт болон хэрэгжилтэд зөвлөгөө үзүүлнэ.",
     },
     body: {
       en: [
-        'Investors entering Mongolia are usually working with two legal systems at once. We handle the Mongolian side of a transaction and coordinate with foreign counsel, so that the structure agreed in one jurisdiction is actually implementable in the other.',
-        'The work runs from early structuring and due diligence through negotiation and regulatory approvals to closing and the post-closing steps that are easy to overlook.',
+        "We advise foreign investors putting capital into Mongolia, or working with a Mongolian company, on corporate structure, investment agreements, shareholding and the approvals required.",
+        "On cross-border transactions we work alongside foreign counsel and take responsibility for the matters governed by Mongolian law.",
       ],
       mn: [
-        'Монголд орж ирж буй хөрөнгө оруулагчид ихэвчлэн хоёр эрх зүйн тогтолцоотой зэрэг ажилладаг. Бид хэлцлийн монголын талыг хариуцаж, гадаадын өмгөөлөгчтэй уялдуулан ажиллана. Ингэснээр нэг улсад тохирсон бүтэц нөгөө улсад бодитоор хэрэгжих боломжтой болно.',
-        'Ажил нь эхний шатны бүтэц тодорхойлох, эрх зүйн шалгалтаас эхлээд хэлэлцээр, зохицуулагчийн зөвшөөрөл, хэлцлийг хаах, мөн анзаарагдахгүй өнгөрөх хэлцлийн дараах алхмууд хүртэл үргэлжилнэ.',
+        "Монгол Улсад хөрөнгө оруулах болон Монголын компанитай хамтран ажиллах гадаадын хөрөнгө оруулагчдад компанийн бүтэц, хөрөнгө оруулалтын гэрээ, хувьцаа эзэмшлийн асуудал болон холбогдох зөвшөөрлийн талаар зөвлөгөө өгнө.",
+        "Хил дамнасан хэлцлийн үед гадаадын хуульч, зөвлөхтэй хамтран ажиллаж, Монгол Улсын хууль тогтоомжид хамаарах асуудлыг хариуцан ажиллана.",
       ],
     },
     covers: {
@@ -434,17 +434,17 @@ export const SERVICES: Service[] = [
     slug: 'mining-natural-resources',
     title: { en: 'Mining & Natural Resources', mn: 'Ашигт малтмал, байгалийн нөөц' },
     lead: {
-      en: 'Corporate, contractual, regulatory and dispute work for mining and resource businesses.',
-      mn: 'Уул уурхай, байгалийн нөөцийн бизнесийн компани, гэрээ, зохицуулалт, маргааны асуудал.',
+      en: 'Advice on corporate matters, contracts, licences and disputes in the mining and minerals sector.',
+      mn: "Уул уурхай, ашигт малтмалын салбарын компани, гэрээ, тусгай зөвшөөрөл болон маргааны асуудлаар зөвлөгөө үзүүлнэ.",
     },
     body: {
       en: [
-        'Resource businesses sit at the intersection of corporate law, administrative law and long-term commercial contracting. A licence question is rarely only a licence question — it usually reaches the shareholding, the supply chain and the financing at the same time.',
-        'We advise on those matters together rather than in isolation, including where a regulatory decision has to be challenged through administrative proceedings.',
+        "We advise on the operations, contracts, licences, investment and regulatory requirements of mining companies.",
+        "We also act on administrative disputes concerning licences and decisions of government bodies, and on contracts with contractors and suppliers.",
       ],
       mn: [
-        'Байгалийн нөөцийн бизнес нь компанийн эрх зүй, захиргааны эрх зүй, урт хугацааны арилжааны гэрээний огтлолцол дээр оршдог. Тусгай зөвшөөрлийн асуудал нь ховор тохиолдолд зөвхөн тусгай зөвшөөрлийн асуудал байдаг — ихэвчлэн эзэмшил, нийлүүлэлтийн сүлжээ, санхүүжилтэд нэгэн зэрэг хүрдэг.',
-        'Бид эдгээрийг тусад нь бус цогцоор нь авч үзнэ. Үүнд зохицуулагчийн шийдвэрийг захиргааны журмаар эс зөвшөөрөх шаардлагатай тохиолдол мөн хамаарна.',
+        "Уул уурхайн компанийн үйл ажиллагаа, гэрээ хэлцэл, тусгай зөвшөөрөл, хөрөнгө оруулалт болон зохицуулалтын асуудлаар хууль зүйн зөвлөгөө үзүүлнэ.",
+        "Мөн тусгай зөвшөөрөл болон төрийн байгууллагын шийдвэртэй холбоотой захиргааны маргаан, гүйцэтгэгч болон нийлүүлэгчтэй байгуулах гэрээний асуудлаар ажиллана.",
       ],
     },
     covers: {
