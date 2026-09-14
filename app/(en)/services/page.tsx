@@ -6,8 +6,8 @@ import { buildMetadata } from '@/lib/seo';
 export const metadata: Metadata = buildMetadata({
   lang: 'en',
   route: '/services',
-  title: T.services.title['en'],
-  description: T.services.lede['en'],
+  title: T.services.metaTitle['en'],
+  description: T.services.metaDescription['en'],
 });
 
 export default function Page() {

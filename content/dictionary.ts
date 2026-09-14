@@ -22,6 +22,15 @@ export const T = {
   },
 
   home: {
+    /** Used for the browser title and search results, not shown on the page. */
+    metaTitle: {
+      en: 'LawMongolia — Lawyer and legal services for business in Mongolia',
+      mn: 'LawMongolia — Өмгөөлөгч, бизнесийн хууль зүйн зөвлөгөө',
+    },
+    metaDescription: {
+      en: 'Lawyer and legal services in Ulaanbaatar for companies, investors and business owners: corporate law, contracts, court disputes, tax, employment and regulatory matters.',
+      mn: 'Улаанбаатар дахь өмгөөлөгч, хууль зүйн зөвлөгөөний үйлчилгээ. Компанийн эрх зүй, гэрээ, шүүхийн маргаан, татвар, хөдөлмөр, захиргааны асуудал.',
+    },
     eyebrow: { en: 'ULAANBAATAR · MONGOLIA', mn: 'УЛААНБААТАР · МОНГОЛ' },
     headingA: { en: 'Corporate law, contracts', mn: 'Компанийн эрх зүй, гэрээ' },
     headingB: { en: 'and dispute resolution', mn: 'ба маргаан шийдвэрлэх' },
@@ -61,6 +70,10 @@ export const T = {
   },
 
   about: {
+    metaDescription: {
+      en: 'Corplex Consulting LLC has provided legal advice and court representation to businesses in Mongolia since 2022.',
+      mn: '“Корплекс Консалтинг” ХХК нь 2022 оноос хойш бизнесийн байгууллагад хууль зүйн зөвлөгөө, өмгөөллийн үйлчилгээ үзүүлж байна.',
+    },
     title: { en: 'About', mn: 'Бидний тухай' },
     heading: { en: 'About us', mn: 'Бидний тухай' },
     body: {
@@ -120,6 +133,14 @@ export const T = {
   },
 
   services: {
+    metaTitle: {
+      en: 'Legal services for business — corporate, contracts, disputes, tax',
+      mn: 'Хууль зүйн үйлчилгээ — компанийн эрх зүй, гэрээ, маргаан, татвар',
+    },
+    metaDescription: {
+      en: 'Legal advice and court representation for companies: corporate law, contracts, litigation, tax, employment, regulatory matters, fintech, technology, investment and mining.',
+      mn: 'Компанид зориулсан хууль зүйн зөвлөгөө, өмгөөллийн үйлчилгээ. Компанийн эрх зүй, гэрээ, шүүхийн маргаан, татвар, хөдөлмөр, захиргаа, финтек, технологи, хөрөнгө оруулалт, уул уурхай.',
+    },
     title: { en: 'Services', mn: 'Үйлчилгээ' },
     heading: { en: 'Services', mn: 'Үйлчилгээ' },
     lede: {
@@ -132,6 +153,10 @@ export const T = {
   },
 
   people: {
+    metaTitle: {
+      en: 'Our lawyers',
+      mn: 'Манай өмгөөлөгч, хуульчид',
+    },
     title: { en: 'People', mn: 'Хуульчид' },
     lede: {
       en: 'Profile, areas of expertise and professional experience.',
@@ -170,6 +195,10 @@ export const T = {
   },
 
   contact: {
+    metaTitle: {
+      en: 'Contact a lawyer in Ulaanbaatar',
+      mn: 'Өмгөөлөгчтэй холбоо барих — Улаанбаатар',
+    },
     title: { en: 'Contact', mn: 'Холбоо барих' },
     heading: { en: 'Contact', mn: 'Холбоо барих' },
     lede: {

@@ -6,7 +6,7 @@ import { buildMetadata } from '@/lib/seo';
 export const metadata: Metadata = buildMetadata({
   lang: 'en',
   route: '/people',
-  title: T.people.title['en'],
+  title: T.people.metaTitle['en'],
   description: T.people.lede['en'],
 });
 

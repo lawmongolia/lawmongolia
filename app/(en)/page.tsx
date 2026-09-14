@@ -7,8 +7,8 @@ import { JsonLd, organizationSchema } from '@/lib/schema';
 export const metadata: Metadata = buildMetadata({
   lang: 'en',
   route: '/',
-  title: T.home.headingA['en'] + ' ' + T.home.headingB['en'],
-  description: T.home.lede['en'],
+  title: T.home.metaTitle['en'],
+  description: T.home.metaDescription['en'],
 });
 
 export default function Page() {

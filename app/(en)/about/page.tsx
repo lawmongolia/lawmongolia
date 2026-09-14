@@ -7,7 +7,7 @@ export const metadata: Metadata = buildMetadata({
   lang: 'en',
   route: '/about',
   title: T.about.title['en'],
-  description: T.about.body['en'][0],
+  description: T.about.metaDescription['en'],
 });
 
 export default function Page() {
