@@ -1,0 +1,17 @@
+# Cloudflare Workers Static Assets reads this file from the deployed folder.
+# Static assets are served before the Worker runs, so response headers for
+# pages are set here rather than in worker/index.ts.
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+# Build output is content-hashed, so it can be cached indefinitely.
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable

@@ -1,0 +1,223 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /*
+     * The colour system is four tokens. Change these to match the logo and the
+     * whole site follows — nothing else in the codebase names a colour.
+     *
+     *   --field        the deep colour used for large blocks (masthead, hero,
+     *                  footer, closing call to action)
+     *   --field-mute   readable secondary text on that colour
+     *   --accent       links, numbers and emphasis on white
+     *   --accent-lift  the bright stop, used on the deep colour only
+     */
+    --field: #22497a;
+    --field-mute: #adc6e0;
+    --accent: #25507d;
+    --accent-lift: #cc9a39;
+    --accent-soft: #e9eff6;
+    --on-field: #ffffff;
+    --logo-accent: var(--accent);
+
+    /* Self-hosted families, loaded in the root layouts. */
+    --font-serif: 'Source Serif 4 Variable', Georgia, 'Times New Roman', serif;
+    --font-sans: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-paper font-sans text-ink antialiased;
+    font-size: 17px;
+    line-height: 1.7;
+    font-feature-settings: 'kern' 1;
+  }
+
+  ::selection {
+    background: var(--accent-soft);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-serif;
+    text-wrap: balance;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.001ms !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  /* A block painted in the brand colour. Sets its own text colours so
+     anything nested inside stays readable without further overrides. */
+  .field {
+    background: var(--field);
+    color: var(--on-field);
+    --logo-accent: var(--accent-lift);
+  }
+  .field-mute {
+    color: var(--field-mute);
+  }
+
+  /* Page shell ------------------------------------------------------ */
+  .shell {
+    @apply mx-auto w-full max-w-shell px-6 sm:px-8 lg:px-12;
+  }
+
+  /* Type scale ------------------------------------------------------ */
+  .t-display {
+    font-size: clamp(2.5rem, 6.2vw, 4.75rem);
+    line-height: 1.04;
+    letter-spacing: -0.028em;
+    font-weight: 400;
+  }
+
+  .t-h2 {
+    font-size: clamp(1.75rem, 3.2vw, 2.5rem);
+    line-height: 1.16;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+  }
+
+  .t-h3 {
+    font-size: clamp(1.25rem, 2vw, 1.5rem);
+    line-height: 1.28;
+    letter-spacing: -0.012em;
+    font-weight: 400;
+  }
+
+  .t-lede {
+    font-size: clamp(1.0625rem, 1.5vw, 1.25rem);
+    line-height: 1.62;
+    @apply text-muted;
+  }
+
+  /* A small, letter-spaced label. Sentence case, never shouted. */
+  .t-label {
+    @apply font-sans text-[0.75rem] text-muted;
+    letter-spacing: 0.11em;
+  }
+
+  /* Links ----------------------------------------------------------- */
+  .link-underline {
+    @apply relative inline-block text-ink no-underline;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    transition: background-size 0.22s ease;
+  }
+  .link-underline:hover {
+    background-size: 0% 1px;
+    background-position: 100% 100%;
+  }
+
+  .link-quiet {
+    @apply text-muted no-underline transition-colors;
+  }
+  .link-quiet:hover {
+    color: var(--accent);
+  }
+
+  /* A text action: word plus a rule that extends on hover. */
+  .action {
+    @apply inline-flex items-center gap-3 font-sans text-[0.9375rem] text-ink no-underline;
+  }
+  .action::after {
+    content: '';
+    display: block;
+    width: 2rem;
+    height: 1px;
+    background: currentColor;
+    transition: width 0.24s ease;
+  }
+  .action:hover::after {
+    width: 3.25rem;
+  }
+  .action-accent {
+    color: var(--accent);
+  }
+
+  /* A filled action, used once per view on the deep colour. */
+  .action-solid {
+    @apply inline-flex items-center rounded-[4px] px-6 py-3 font-sans text-[0.9375rem] no-underline transition-colors;
+    background: var(--accent-lift);
+    color: #2a1f06;
+  }
+  .action-solid:hover {
+    background: #ddb055;
+  }
+  .action-outline {
+    @apply inline-flex items-center rounded-[4px] px-6 py-3 font-sans text-[0.9375rem] no-underline transition-colors;
+    border: 1px solid rgba(255, 255, 255, 0.38);
+    color: var(--on-field);
+  }
+  .action-outline:hover {
+    border-color: var(--accent-lift);
+    color: var(--accent-lift);
+  }
+
+  /* Prose ----------------------------------------------------------- */
+  .prose-legal {
+    @apply max-w-prose;
+  }
+  .prose-legal p {
+    @apply mb-5 text-ink;
+  }
+  .prose-legal h2 {
+    @apply t-h3 mb-3 mt-10;
+  }
+  .prose-legal h3 {
+    @apply mb-2 mt-8 font-serif text-[1.125rem];
+  }
+  .prose-legal ul {
+    @apply mb-5 list-disc space-y-1 pl-5;
+  }
+  .prose-legal ol {
+    @apply mb-5 list-decimal space-y-1 pl-5;
+  }
+  .prose-legal a {
+    @apply underline decoration-rule underline-offset-4;
+  }
+  .prose-legal a:hover {
+    color: var(--accent);
+  }
+  .prose-legal blockquote {
+    @apply my-6 border-l pl-5 italic text-muted;
+    border-color: var(--accent);
+  }
+
+  /* Form ------------------------------------------------------------ */
+  .field-label {
+    @apply mb-2 block font-sans text-[0.8125rem] text-muted;
+  }
+  .field-input {
+    @apply w-full border-0 border-b border-rule bg-transparent pb-2 font-sans text-[1rem] text-ink;
+    transition: border-color 0.2s ease;
+  }
+  .field-input::placeholder {
+    @apply text-rule;
+  }
+  .field-input:focus {
+    outline: none;
+    border-color: var(--accent);
+  }
+  textarea.field-input {
+    @apply resize-y;
+    min-height: 8rem;
+  }
+}
