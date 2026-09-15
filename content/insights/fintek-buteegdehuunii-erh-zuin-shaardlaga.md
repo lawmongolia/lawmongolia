@@ -11,6 +11,7 @@ relatedServices:
   - fintech-financial-regulation
   - technology-digital-platforms
   - contracts
+translation: fintech-product-legal-requirements
 draft: false
 ---
 

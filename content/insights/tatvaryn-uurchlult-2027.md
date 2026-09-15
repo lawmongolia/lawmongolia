@@ -10,6 +10,7 @@ lang: mn
 relatedServices:
   - tax
   - corporate-commercial
+translation: mongolia-tax-changes-2027
 draft: false
 ---
 

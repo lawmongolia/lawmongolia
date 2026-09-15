@@ -11,6 +11,7 @@ relatedServices:
   - administrative-regulatory
   - technology-digital-platforms
   - contracts
+translation: moped-e-scooter-regulation-mongolia
 draft: false
 ---
 

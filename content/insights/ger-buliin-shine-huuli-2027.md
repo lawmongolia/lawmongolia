@@ -8,6 +8,7 @@ category: Иргэний эрх зүй
 slug: ger-buliin-shine-huuli-2027
 lang: mn
 relatedServices: []
+translation: mongolia-family-law-2027
 draft: false
 ---
 
