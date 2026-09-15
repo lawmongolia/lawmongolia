@@ -139,7 +139,7 @@ export const T = {
     },
     metaDescription: {
       en: 'Legal advice and court representation for companies: corporate law, contracts, litigation, tax, employment, regulatory matters, fintech, technology, investment and mining.',
-      mn: 'Компанид зориулсан хууль зүйн зөвлөгөө, өмгөөллийн үйлчилгээ. Компанийн эрх зүй, гэрээ, шүүхийн маргаан, татвар, хөдөлмөр, захиргаа, финтек, технологи, хөрөнгө оруулалт, уул уурхай.',
+      mn: 'Компанийн хуульч, өмгөөлөгчийн үйлчилгээ. Компанийн эрх зүй, гэрээ, шүүхийн маргаан, татвар, хөдөлмөр, захиргаа, финтек, технологи, хөрөнгө оруулалт, уул уурхай.',
     },
     title: { en: 'Services', mn: 'Үйлчилгээ' },
     heading: { en: 'Services', mn: 'Үйлчилгээ' },

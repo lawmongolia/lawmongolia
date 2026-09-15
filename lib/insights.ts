@@ -3,6 +3,7 @@ import path from 'node:path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
+import gfm from 'remark-gfm';
 import type { Lang, L } from './types';
 
 const DIR = path.join(process.cwd(), 'content', 'insights');
@@ -55,7 +56,12 @@ function readAll(): Article[] {
     if (data.draft === true) continue;
 
     const words = content.trim().split(/\s+/).length;
-    const body = remark().use(html).processSync(content).toString();
+    // remark-gfm adds tables, strikethrough and task lists to the base syntax.
+    const body = remark()
+      .use(gfm)
+      .use(html, { sanitize: false })
+      .processSync(content)
+      .toString();
 
     articles.push({
       slug: String(data.slug ?? file.replace(/\.md$/, '')),

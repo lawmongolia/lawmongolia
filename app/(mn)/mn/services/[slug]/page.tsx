@@ -27,7 +27,7 @@ export async function generateMetadata({
     lang: LANG,
     route: `/services/${slug}`,
     title: service.title[LANG],
-    description: service.lead[LANG],
+    description: service.metaDescription?.[LANG] ?? service.lead[LANG],
   });
 }
 

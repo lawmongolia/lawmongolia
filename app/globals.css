@@ -196,6 +196,19 @@
   .prose-legal a:hover {
     color: var(--accent);
   }
+  .prose-legal table {
+    @apply my-7 w-full border-collapse text-[0.9375rem];
+  }
+  .prose-legal thead th {
+    @apply border-b border-ink pb-2 pr-4 text-left font-sans text-[0.8125rem] font-medium align-bottom;
+  }
+  .prose-legal tbody td {
+    @apply border-b border-rule py-3 pr-4 align-top;
+  }
+  .prose-legal tbody tr:last-child td {
+    @apply border-b-0;
+  }
+
   .prose-legal blockquote {
     @apply my-6 border-l pl-5 italic text-muted;
     border-color: var(--accent);

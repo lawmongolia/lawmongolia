@@ -3,8 +3,14 @@ import type { L, LList } from '@/lib/types';
 export type Service = {
   slug: string;
   title: L;
-  /** One line used in listings and meta descriptions. */
+  /** One line used in listings, and as the meta description when none is set. */
   lead: L;
+  /**
+   * Optional description written for search results rather than for the page.
+   * Use it where the words a client would actually search for differ from the
+   * way the service is described on the page itself.
+   */
+  metaDescription?: L;
   /** Two or three paragraphs of page introduction. */
   body: LList;
   /** What the practice covers, shown as a typographic list. */
@@ -18,6 +24,10 @@ export const SERVICES: Service[] = [
     lead: {
       en: 'Advice on company formation, governance, shareholder matters, investment and day-to-day corporate legal questions.',
       mn: "Компани үүсгэн байгуулах, засаглал, хувьцаа эзэмшигчдийн харилцаа, хөрөнгө оруулалт болон компанийн өдөр тутмын эрх зүйн асуудлаар зөвлөгөө үзүүлнэ.",
+    },
+    metaDescription: {
+      en: "Corporate lawyer for companies in Mongolia: incorporation, governance, shareholder agreements, investment and day-to-day corporate legal advice.",
+      mn: "Компанийн өмгөөлөгч, бизнесийн хуульчийн үйлчилгээ. Компани үүсгэн байгуулах, засаглал, хувьцаа эзэмшигчдийн харилцаа, хөрөнгө оруулалт, өдөр тутмын эрх зүйн зөвлөгөө.",
     },
     body: {
       en: [
@@ -67,6 +77,10 @@ export const SERVICES: Service[] = [
       en: 'Legal advice on drafting, reviewing and negotiating domestic and international contracts.',
       mn: "Дотоодын болон олон улсын гэрээ, хэлцлийг боловсруулах, хянах, хэлэлцээр хийхэд хууль зүйн зөвлөгөө үзүүлнэ.",
     },
+    metaDescription: {
+      en: "Contract lawyer in Mongolia: drafting, reviewing and negotiating domestic and international agreements, and advice on contract disputes.",
+      mn: "Гэрээний өмгөөлөгч. Дотоодын болон олон улсын гэрээ боловсруулах, хянах, хэлэлцээр хийх, гэрээний маргааны зөвлөгөө.",
+    },
     body: {
       en: [
         "When drafting a contract we focus on setting out clearly the rights and obligations of the parties, payment terms, liability, the grounds on which the contract ends, and the dispute resolution procedure.",
@@ -114,6 +128,10 @@ export const SERVICES: Service[] = [
     lead: {
       en: 'Legal advice in civil, commercial and administrative disputes, and representation in court and other proceedings.',
       mn: "Иргэний, арилжааны болон захиргааны маргаанд хууль зүйн зөвлөгөө өгч, өмгөөлөгч шүүх болон бусад ажиллагаанд төлөөлөн оролцоно.",
+    },
+    metaDescription: {
+      en: "Litigation lawyer in Mongolia. Representation in civil, commercial, tax, employment and administrative disputes.",
+      mn: "Шүүхэд төлөөлөх өмгөөлөгч. Гэрээний маргаан, арилжааны маргаан, татвар, хөдөлмөр, захиргааны маргаанд төлөөлөн оролцоно.",
     },
     body: {
       en: [
@@ -296,6 +314,10 @@ export const SERVICES: Service[] = [
     lead: {
       en: 'Advice on the regulation of non-bank finance, lending, payment services, electronic money and financial products.',
       mn: "Банк бус санхүү, зээл, төлбөрийн үйлчилгээ, цахим мөнгө болон санхүүгийн бүтээгдэхүүний эрх зүйн зохицуулалтын асуудлаар зөвлөгөө үзүүлнэ.",
+    },
+    metaDescription: {
+      en: "Fintech lawyer in Mongolia: non-bank finance, lending, payment services, electronic money and financial regulation.",
+      mn: "Финтек хуульч, санхүүгийн зохицуулалтын өмгөөлөгч. Банк бус санхүү, зээл, төлбөрийн үйлчилгээ, цахим мөнгө, тусгай зөвшөөрөл.",
     },
     body: {
       en: [
