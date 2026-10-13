@@ -67,7 +67,7 @@ export const PEOPLE: Person[] = [
       en: 'Itgel Galsanjamts, Managing Partner of Corplex Consulting LLC',
       mn: 'Галсанжамцын Итгэл, “Корплекс Консалтинг” ХХК-ийн Managing Partner',
     },
-    email: 'legal@estaff.mn',
+    email: 'itgel@lawmongolia.mn',
     telephone: '+976 7270 1650',
     overview: {
       en: [
@@ -155,7 +155,7 @@ export const PEOPLE: Person[] = [
       en: ['Mongolian', 'English'],
       mn: ['Монгол', 'Англи'],
     },
-    sameAs: [],
+    sameAs: ['https://www.linkedin.com/in/itgeljamts/'],
   },
 ];
 

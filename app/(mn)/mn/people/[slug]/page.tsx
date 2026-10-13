@@ -28,6 +28,8 @@ export async function generateMetadata({
     route: `/people/${slug}`,
     title: `${person.name[LANG]} — ${person.positioning[LANG]}`,
     description: person.overview[LANG][0],
+    image: person.portrait,
+    imageAlt: person.portraitAlt[LANG],
   });
 }
 

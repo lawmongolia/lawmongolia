@@ -15,6 +15,9 @@ type Args = {
   routes?: Partial<Record<Lang, string>>;
   title: string;
   description: string;
+  /** Preferred image for this page; optional and not inherited by other pages. */
+  image?: string;
+  imageAlt?: string;
   /** Set for article pages so Open Graph reports the right type. */
   type?: 'website' | 'article';
   publishedTime?: string;
@@ -27,6 +30,8 @@ export function buildMetadata({
   routes,
   title,
   description,
+  image,
+  imageAlt,
   type = 'website',
   publishedTime,
   modifiedTime,
@@ -44,6 +49,7 @@ export function buildMetadata({
   languages['x-default'] = enUrl ?? mnUrl ?? canonical;
 
   const fullTitle = route === '/' ? title : `${title} — ${BRAND.name}`;
+  const selectedImage = image ? new URL(image, SITE_URL).href : undefined;
 
   return {
     title: fullTitle,
@@ -57,9 +63,15 @@ export function buildMetadata({
       description,
       locale: lang === 'mn' ? 'mn_MN' : 'en_US',
       alternateLocale: lang === 'mn' ? 'en_US' : 'mn_MN',
+      ...(selectedImage ? { images: [{ url: selectedImage, alt: imageAlt ?? title }] } : {}),
       ...(publishedTime ? { publishedTime } : {}),
       ...(modifiedTime ? { modifiedTime } : {}),
     },
-    twitter: { card: 'summary', title: fullTitle, description },
+    twitter: {
+      card: 'summary',
+      title: fullTitle,
+      description,
+      ...(selectedImage ? { images: [selectedImage] } : {}),
+    },
   };
 }

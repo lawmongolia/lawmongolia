@@ -55,6 +55,7 @@ export function personSchema(person: Person, lang: Lang) {
     hasOccupation: { '@type': 'Occupation', name: person.positioning[lang] },
     description: person.overview[lang][0],
     url: `${SITE_URL}${langPath(lang, `/people/${person.slug}`)}`,
+    image: person.portrait ? `${SITE_URL}${person.portrait}` : undefined,
     email: person.email,
     telephone: person.telephone,
     worksFor: { '@id': `${SITE_URL}/#organization` },
@@ -69,6 +70,9 @@ export function profilePageSchema(person: Person, lang: Lang) {
     '@type': 'ProfilePage',
     '@id': `${SITE_URL}${langPath(lang, `/people/${person.slug}`)}#profilepage`,
     mainEntity: { '@id': `${SITE_URL}/people/${person.slug}#person` },
+    ...(person.portrait
+      ? { primaryImageOfPage: { '@type': 'ImageObject', url: `${SITE_URL}${person.portrait}` } }
+      : {}),
     inLanguage: lang,
   };
 }
@@ -86,6 +90,40 @@ export function articleSchema(article: Article, authorName: string, lang: Lang) 
     publisher: { '@id': `${SITE_URL}/#organization` },
     mainEntityOfPage: `${SITE_URL}${langPath(lang, `/insights/${article.slug}`)}`,
   });
+}
+
+/** Service schema for a long-form service page. No ratings or reviews. */
+export function serviceSchema(
+  d: { slug: string; h1: Record<Lang, string>; metaDescription: Record<Lang, string> },
+  lang: Lang
+) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    '@id': `${SITE_URL}${langPath(lang, `/services/${d.slug}`)}#service`,
+    name: d.h1[lang],
+    serviceType: d.h1[lang],
+    description: d.metaDescription[lang],
+    url: `${SITE_URL}${langPath(lang, `/services/${d.slug}`)}`,
+    inLanguage: lang,
+    provider: { '@id': `${SITE_URL}/#organization` },
+    areaServed: { '@type': 'Country', name: 'Mongolia' },
+    availableLanguage: ['mn', 'en'],
+  };
+}
+
+/** FAQPage schema built only from questions that are visible on the page. */
+export function faqSchema(faq: { q: Record<Lang, string>; a: Record<Lang, string> }[], lang: Lang) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    inLanguage: lang,
+    mainEntity: faq.map((f) => ({
+      '@type': 'Question',
+      name: f.q[lang],
+      acceptedAnswer: { '@type': 'Answer', text: f.a[lang] },
+    })),
+  };
 }
 
 export function breadcrumbSchema(
