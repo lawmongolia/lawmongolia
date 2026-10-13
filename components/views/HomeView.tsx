@@ -17,10 +17,6 @@ export function HomeView({ lang }: { lang: Lang }) {
       {/* Hero ---------------------------------------------------------- */}
       <section className="field">
         <div className="shell pb-24 pt-20 sm:pb-32 sm:pt-28 lg:pb-40 lg:pt-32">
-          <p className="field-mute mb-12 font-sans text-[0.75rem] tracking-[0.13em]">
-            {T.home.eyebrow[lang]}
-          </p>
-
           <h1 className="t-display max-w-[18ch]">
             {T.home.headingA[lang]}
             <br />
@@ -78,8 +74,8 @@ export function HomeView({ lang }: { lang: Lang }) {
           <h2 className="t-h2 lg:col-span-5">{T.retainer.heading[lang]}</h2>
           <div className="lg:col-span-7">
             <p className="max-w-prose text-[1.0625rem]">{T.retainer.lede[lang]}</p>
-            <Link href={path(lang, '/services')} className="action mt-8 inline-flex">
-              {T.home.servicesAll[lang]}
+            <Link href={path(lang, '/services/ongoing-legal-services')} className="action mt-8 inline-flex">
+              {T.services.retainerMore[lang]}
             </Link>
           </div>
         </div>
@@ -104,9 +100,6 @@ export function HomeView({ lang }: { lang: Lang }) {
             </p>
             <p className="mt-5 max-w-prose text-[1.0625rem]">
               {person.positioning[lang]}
-            </p>
-            <p className="mt-2 font-sans text-[0.875rem] text-muted">
-              {person.secondary[lang]}
             </p>
             <Link
               href={path(lang, `/people/${person.slug}`)}

@@ -5,7 +5,6 @@ import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { Logo } from './Logo';
 import { T } from '@/content/dictionary';
-import { BRAND_LINE } from '@/lib/site';
 import { path, type Lang } from '@/lib/types';
 
 const ITEMS = [
@@ -46,13 +45,10 @@ export function Header({ lang }: { lang: Lang }) {
       <div className="shell flex h-[84px] items-center justify-between gap-6">
         <Link
           href={path(lang, '/')}
-          className="flex shrink-0 items-center gap-4"
+          className="flex shrink-0 items-center"
           aria-label={T.nav.home[lang]}
         >
           <Logo />
-          <span className="hidden max-w-[22ch] border-l border-rule pl-4 font-sans text-[0.75rem] leading-snug text-muted lg:block">
-            {BRAND_LINE[lang]}
-          </span>
         </Link>
 
         <nav

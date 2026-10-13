@@ -28,17 +28,6 @@ export function AboutView({ lang }: { lang: Lang }) {
       <Section tone="warm">
         <div className="grid gap-10 lg:grid-cols-12 lg:gap-16">
           <div className="lg:col-span-5">
-            <h2 className="t-h2">{T.about.approachHeading[lang]}</h2>
-          </div>
-          <div className="lg:col-span-7">
-            <RuleList items={T.about.approach[lang].map((x) => <span key={x}>{x}</span>)} />
-          </div>
-        </div>
-      </Section>
-
-      <Section>
-        <div className="grid gap-10 lg:grid-cols-12 lg:gap-16">
-          <div className="lg:col-span-5">
             <h2 className="t-h2">{T.about.whoHeading[lang]}</h2>
           </div>
           <div className="lg:col-span-7">

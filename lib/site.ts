@@ -27,12 +27,6 @@ export const ENTITY = {
   since: 2022,
 } as const;
 
-/** Short descriptor shown beside the logo. Not an explanation of the brand. */
-export const BRAND_LINE: L = {
-  en: 'Corporate law · Contracts · Dispute resolution',
-  mn: 'Компанийн эрх зүй · Гэрээ · Маргаан шийдвэрлэх',
-};
-
 /**
  * Logo file placed in /public, e.g. '/logo.svg'.
  * While this is empty the site renders the LawMongolia wordmark instead.
@@ -44,7 +38,7 @@ export const LOGO_HEIGHT = 54;
 export const CONTACT = {
   telephone: '+976 7270 1650',
   telephoneAlt: '+976 9903 0626',
-  email: 'legal@estaff.mn',
+  email: 'itgel@lawmongolia.mn',
   website: 'lawmongolia.mn',
   facebook: 'https://www.facebook.com/profile.php?id=61580491263187',
   linkedin: '',

@@ -59,7 +59,6 @@ export function PersonView({ lang, person }: { lang: Lang; person: Person }) {
             <p className="mt-6 text-[1.125rem]" style={{ color: 'var(--accent-lift)' }}>
               {person.positioning[lang]}
             </p>
-            <p className="field-mute mt-2 font-sans text-[0.875rem]">{person.secondary[lang]}</p>
 
             <div className="mt-8 space-y-1 font-sans text-[0.9375rem]">
               <p className={isPlaceholder(person.email) ? 'text-white/40' : 'text-white/90'}>
