@@ -1,4 +1,20 @@
-# Why Did the Court Find a QR-Coded Agreement Insufficient to Prove Contract Formation?
+---
+title: "Why a QR-coded agreement did not prove contract formation in a Mongolian court"
+description: "An analysis of a Khentii administrative court decision on a QR-coded land possession agreement, electronic acceptance records and proof of the two-year non-use period."
+author: itgel-galsanjamts
+date: "2026-10-14"
+updated: "2026-10-14"
+category: "Administrative Law"
+slug: qr-coded-land-agreement-contract-formation-court-mongolia
+lang: en
+relatedServices:
+  - administrative-regulatory
+  - contracts
+  - litigation-dispute-resolution
+  - technology-digital-platforms
+translation: qr-kodtoi-geree-gazar-ezemshih-shuuhiin-shiidver
+draft: false
+---
 
 *Case note | Administrative law, electronic contracts and evidence | 14 October 2026*
 

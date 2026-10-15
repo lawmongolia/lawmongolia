@@ -1,4 +1,20 @@
-# QR кодтой гэрээ байхад шүүх яагаад “гэрээ байгуулагдсан нь нотлогдоогүй” гэж үзэв?
+---
+title: "QR кодтой цахим гэрээ байгуулагдсаныг шүүх яагаад нотлогдоогүй гэж үзэв?"
+description: "Газар эзэмших эрхийг хүчингүй болгосон маргаанд QR кодтой гэрээ, цахим системийн зөвшөөрлийн бүртгэл, хоёр жилийн хугацааг нотлох асуудлыг шүүх хэрхэн үнэлсэн тухай тойм."
+author: itgel-galsanjamts
+date: "2026-10-14"
+updated: "2026-10-14"
+category: "Захиргааны эрх зүй"
+slug: qr-kodtoi-geree-gazar-ezemshih-shuuhiin-shiidver
+lang: mn
+relatedServices:
+  - administrative-regulatory
+  - contracts
+  - litigation-dispute-resolution
+  - technology-digital-platforms
+translation: qr-coded-land-agreement-contract-formation-court-mongolia
+draft: false
+---
 
 *Шүүхийн шийдвэрийн тойм | Захиргааны эрх зүй, цахим гэрээ, нотлох баримт | 2026 оны 10 дугаар сарын 14*
 

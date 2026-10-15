@@ -1,14 +1,19 @@
 ---
 title: "BNPL үйлчилгээний эрх зүйн ангилал нь төлбөрийг хэн санхүүжүүлж байгаагаас хамаарна"
 description: "Дараа төлөх худалдаа, ББСБ-ын зээл, авлага шилжүүлэх хэлцэл, санхүүгийн түрээсийн ялгаа болон бүтээгдэхүүн боловсруулах үед шалгах асуудал."
-slug: "bnpl-deferred-payment-credit-classification-mongolia"
-lang: "mn"
+author: itgel-galsanjamts
 date: "2026-10-14"
-category: "Финтек ба гэрээний эрх зүй"
-author: "LawMongolia"
+updated: "2026-10-14"
+category: "Финтек"
+slug: bnpl-daraa-tuluh-zeel-gereenii-angilal
+lang: mn
+relatedServices:
+  - fintech-financial-regulation
+  - contracts
+  - technology-digital-platforms
+translation: bnpl-deferred-payment-credit-classification-mongolia
+draft: false
 ---
-
-# BNPL үйлчилгээний эрх зүйн ангилал нь төлбөрийг хэн санхүүжүүлж байгаагаас хамаарна
 
 «Одоо аваад, дараа төлөх» буюу BNPL үйлчилгээ нь худалдаа, захиалга, тээвэр, дижитал үйлчилгээний салбарт хэрэглэгчийн худалдан авах шийдвэрийг хялбарчлах боломжтой. Гэвч хэрэглэгч төлбөрөө хэд хэдэн удаа хувааж төлөх нь тухайн бүтээгдэхүүнийг автоматаар зээл, эсвэл зөвшөөрөл шаардлагагүй худалдааны урамшуулал болгохгүй. Эдийн засгийн хувьд төстэй харагдах бүтээгдэхүүнийг эрх зүйн хувьд өөр өөр гэрээгээр хэрэгжүүлж болдог.
 

@@ -1,14 +1,19 @@
 ---
 title: "The legal classification of BNPL depends on who finances the deferred payment"
 description: "How Mongolian law distinguishes credit sales, regulated lending, receivables financing and finance leases in buy-now-pay-later products."
-slug: "bnpl-deferred-payment-credit-classification-mongolia"
-lang: "en"
+author: itgel-galsanjamts
 date: "2026-10-14"
-category: "Fintech and Commercial Contracts"
-author: "LawMongolia"
+updated: "2026-10-14"
+category: "Fintech"
+slug: bnpl-deferred-payment-credit-classification-mongolia
+lang: en
+relatedServices:
+  - fintech-financial-regulation
+  - contracts
+  - technology-digital-platforms
+translation: bnpl-daraa-tuluh-zeel-gereenii-angilal
+draft: false
 ---
-
-# The legal classification of BNPL depends on who finances the deferred payment
 
 Buy-now-pay-later (BNPL) products have become a practical way to spread the cost of goods and services over time. An arrangement may appear straightforward to the customer: the purchase is completed immediately and payment falls due later or in instalments. Legally, however, that customer experience can be delivered through materially different contractual structures. Instalment payments do not, by themselves, establish either that the product constitutes regulated lending or that it is exempt from financial-services requirements.
 

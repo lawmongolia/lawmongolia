@@ -1,14 +1,18 @@
 ---
 title: "The true cost of a loan includes more than the advertised interest rate"
 description: "The distinction between nominal interest and effective borrowing cost, the treatment of third-party charges, and disclosure obligations for Mongolian banks and NBFIs."
-slug: "loan-effective-cost-fees-disclosure-mongolia"
-lang: "en"
+author: itgel-galsanjamts
 date: "2026-10-14"
-category: "Banking and Financial Regulation"
-author: "LawMongolia"
+updated: "2026-10-14"
+category: "Banking and Finance"
+slug: loan-effective-cost-fees-disclosure-mongolia
+lang: en
+relatedServices:
+  - fintech-financial-regulation
+  - contracts
+translation: zeeliin-bodit-urtug-huu-shimtgel-mongol
+draft: false
 ---
-
-# The true cost of a loan includes more than the advertised interest rate
 
 Lending products are often promoted by placing the monthly interest rate prominently on the screen, while processing fees and other charges become apparent only at the final stage of the application. That approach creates a disclosure risk, particularly when an applicant is expected to compare and accept the terms of an app-based loan within minutes. The relevant comparison is not limited to the stated interest rate. Borrowers also need information about the cost of obtaining and maintaining the facility.
 

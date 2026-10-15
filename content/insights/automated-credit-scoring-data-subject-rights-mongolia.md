@@ -1,14 +1,18 @@
 ---
 title: "Borrowers retain rights to challenge decisions made through automated credit scoring"
 description: "Personal-data rights, impact assessments, NHRC recommendations and processor accountability in automated lending decisions in Mongolia."
-slug: "automated-credit-scoring-data-subject-rights-mongolia"
-lang: "en"
+author: itgel-galsanjamts
 date: "2026-10-14"
-category: "Data Protection and Fintech"
-author: "LawMongolia"
+updated: "2026-10-14"
+category: "Data Protection"
+slug: automated-credit-scoring-data-subject-rights-mongolia
+lang: en
+relatedServices:
+  - fintech-financial-regulation
+  - technology-digital-platforms
+translation: avtomat-zeeliin-shiidver-huviin-medeelel
+draft: false
 ---
-
-# Borrowers retain rights to challenge decisions made through automated credit scoring
 
 Automated credit decisions are a defining feature of digital lending. A borrower may receive an approval or rejection within seconds of completing an application, without a loan officer manually reviewing every request. That speed does not remove the applicant's rights concerning the information used to reach the decision. Credit scoring involves multiple processes: collecting data, verifying its accuracy, analysing repayment risk, generating a score and applying that score to a lending decision. Each stage needs a legally defensible basis.
 

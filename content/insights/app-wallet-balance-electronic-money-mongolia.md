@@ -1,14 +1,18 @@
 ---
 title: "An in-app balance is not automatically electronic money under Mongolian law"
 description: "How Mongolian law distinguishes app wallets, prepaid customer balances, refunds, vouchers and regulated electronic-money or payment services."
-slug: "app-wallet-balance-electronic-money-mongolia"
-lang: "en"
+author: itgel-galsanjamts
 date: "2026-10-14"
-category: "Fintech and Payment Services"
-author: "LawMongolia"
+updated: "2026-10-14"
+category: "Fintech"
+slug: app-wallet-balance-electronic-money-mongolia
+lang: en
+relatedServices:
+  - fintech-financial-regulation
+  - technology-digital-platforms
+translation: app-hetevch-uldegdel-tsahim-mungu-mongol
+draft: false
 ---
-
-# An in-app balance is not automatically electronic money under Mongolian law
 
 Transport, delivery, marketplace and other digital platforms increasingly show customers an in-app “wallet”, “balance”, “credit” or similar account. The functionality may support advance payments, refunds or loyalty incentives. These labels help users navigate the product, but they do not determine the legal classification of the amounts recorded. An electronically displayed balance is not necessarily electronic money. Conversely, labelling it an internal account does not exempt an operator from financial-services regulation if the underlying service is regulated.
 
