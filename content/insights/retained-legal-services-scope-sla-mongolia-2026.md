@@ -1,62 +1,64 @@
 ---
-title: 'Retained legal services for companies in Mongolia: scope, response times and responsibilities'
-description: How a Mongolian company should define outsourced legal counsel services, contract reviews, response times, confidentiality, pricing and litigation representation.
-author: itgel-galsanjamts
-date: '2026-10-20'
-updated: '2026-10-20'
-category: Corporate and Commercial
-slug: retained-legal-services-scope-sla-mongolia-2026
-lang: en
+title: "What can a buyer demand when goods supplied under a contract are defective in Mongolia?"
+description: "Buyers’ remedies for defective goods under Mongolian law, including inspection on delivery, replacement, repair, price reduction, warranty periods and cancellation of supply contracts."
+author: "itgel-galsanjamts"
+date: "2026-10-20"
+updated: "2026-10-20"
+category: "Commercial Contracts"
+slug: "defective-goods-supply-buyer-remedies-mongolia-2026"
+lang: "en"
 relatedServices:
-- corporate-commercial
-- contracts
-- litigation-dispute-resolution
-translation: kompani-gereet-huuliin-uilchilgee-huree-hariutslaga-2026
+  - contracts
+  - corporate-commercial
+  - litigation-dispute-resolution
+translation: "baraa-niiluulelt-dogoldol-hudaldan-avagchiin-erh-2026"
 draft: false
 ---
 
-Retained legal services allow a company to engage an external law firm or lawyer for ongoing work under an agreed contract. This arrangement is distinct from instructing an advocate for one dispute or employing an in-house counsel. The scope may cover commercial contracts, day-to-day advice, employment documents, corporate governance, regulatory compliance and steps taken before litigation. Its effectiveness depends on how clearly the parties specify the service and their respective responsibilities.
+A business purchasing equipment, parts, raw materials or other goods is entitled to receive property matching the quantity, quality and other conditions agreed in its contract. Where the supplier delivers defective goods, the buyer should not assume that withholding all payment or cancelling the entire contract is necessarily the only available response. The applicable remedies depend on the nature of the sale, the contractual terms, the defects, the time at which they were identified and whether the goods were properly inspected upon delivery.
 
-Agreeing on a monthly fee is not sufficient. The engagement should explain which work is included, which instructions require additional fees, when a response is due, how advice will be delivered, how confidential information is protected and what happens to the company's documents when the relationship ends.
+Articles 253–256 of Mongolia's [Civil Code](https://legalinfo.mn/mn/detail?lawId=299) regulate the seller's responsibilities for defects, the buyer's claims, circumstances in which claims may be lost and cancellation in connection with defects. These provisions are relevant to business-to-business sales, although a mixed agreement involving delivery, installation, maintenance or construction may also engage legal rules governing services or work contracts.
 
-## Scope of recurring legal work
+## Repair, replacement, reimbursement and price-related remedies
 
-The agreement should identify the principal services. These may include preparing and negotiating agreements, reviewing amendments proposed by counterparties, advising on the authority to approve corporate decisions, drafting employment documents, reviewing internal rules and preparing demand letters or responses to regulators. The scope can be adjusted to the company's actual business, rather than described indefinitely as all legal matters.
+Article 253.1 of the Civil Code addresses the seller's duty to remedy defects or replace defective goods where the nature of the goods allows replacement. Article 253.2 places the costs associated with remedying defects, including necessary transportation, labour and materials, on the seller in the circumstances covered by that provision.
 
-A meaningful review of a commercial contract addresses more than wording. It should consider payment and acceptance terms, liability, termination, intellectual-property allocation, data processing, remedies and dispute-resolution provisions together. Where a counterparty has proposed amendments, the company benefits from receiving the clause number, proposed replacement language and concise grounds for accepting or rejecting the change.
+Article 254.1 gives a buyer the right to seek correction of defects, replacement with non-defective goods of the same kind, reimbursement of costs incurred to remedy defects, or cancellation of the contract where the legal conditions are satisfied. Article 254.2 separately addresses reduction of the original price in the circumstances specified by the statute. Accordingly, not every discrepancy should be treated as grounds for immediately terminating the whole transaction.
 
-Proceedings before courts or arbitral tribunals, major transactions and complex tax disputes often require substantially different resources. The parties should specify whether they are included in the retainer, subject to a separate statement of work or priced independently. Unclear definitions of scope create avoidable disagreements over performance and cost.
+Suppose a company receives 100 network devices and discovers upon inspection that eight do not meet the agreed technical specification. This is an illustrative scenario, not a reported court case. Where the defective devices can be separated from the rest, the buyer may first consider seeking compliant replacements or repair of the affected units. Whether it can cancel the entire agreement depends, among other matters, on whether the devices constitute an integrated set whose intended function depends on all of them working together.
 
-## Response times and measurable deliverables
+## Why immediate inspection matters for commercial buyers
 
-The company and its legal services provider may agree on the process for submitting instructions, acknowledging receipt and delivering advice for ordinary and urgent matters. Such response-time commitments are contractual service-level arrangements; they are not universal deadlines imposed on all Mongolian law firms by legislation.
+The rules governing acceptance are particularly important for a business purchaser. Article 255.1.1 addresses loss of a buyer's right to claim where defects were known, or could have been known, at the time of acceptance. Under Article 255.1.2, a buyer conducting business may lose its remedies if it fails to inspect without delay goods received in connection with that business.
 
-The engagement can require written advice where appropriate, tracked revisions to Word contracts, references to relevant statutory provisions, a clear process for follow-up questions and periodic reports on matters in progress. Legal advisers can provide reasoned options and risk assessments, but they do not automatically take over management's commercial decisions.
+For that reason, a delivery acceptance record should be supported by an appropriate inspection process. Depending on the product, this may involve documenting quantities, model numbers, serial numbers, visible damage, test results, missing accessories and the identity of the employee who carried out the inspection. Acceptance documents are important evidence, but they do not necessarily establish that every latent defect was discoverable by ordinary inspection on the delivery date.
 
-Pricing may take the form of a fixed monthly fee, a per-matter fee, time-based billing or a combination. Whatever method is used, the contract should establish included work, any time or matter limits, the fee for additional work, approval requirements and the evidence supporting invoices.
+Article 255.2 provides that the limitations in Article 255.1 do not apply where the seller knowingly concealed defects at the time of delivery. Whether a particular defect was apparent, reasonably discoverable or deliberately concealed depends on the evidence, the characteristics of the goods and the circumstances of the transaction. For technical products, an independent inspection or specialist report may be necessary.
 
-## In-house and external legal functions
+## Warranty periods and the six-month statutory rule
 
-An in-house lawyer ordinarily has continuous knowledge of the company's business, internal approvals and commercial priorities. An external firm may contribute specialised research, assistance in negotiations, an independent assessment of legal risk or representation in a particular dispute. A company does not necessarily have to choose only one model.
+Article 254.6 distinguishes between goods with a warranty period established by the seller and goods for which no warranty period has been established. In the latter case, the provision addresses defects discovered within six months after the buyer acquired ownership of the goods. A buyer who discovers defects within the applicable period may seek the remedies referred to in Article 254.1, subject to the other relevant provisions.
 
-The company should appoint staff authorised to issue instructions and decide whether a recommendation will be implemented. Sending competing drafts from several departments without one responsible coordinator can increase cost and lead to inconsistent contract versions. The contract can also identify the person responsible for supplying facts and documents, because legal advice depends on the completeness of the instruction.
+This six-month rule should not be described as a uniform six-month court limitation period for every commercial dispute. The time for discovering a defect, the requirements for notifying the supplier and the procedural period for bringing a court claim are legally distinct questions. Contractual warranty arrangements and any special law applicable to the product also need to be examined.
 
-## Confidentiality, personal data and conflicts
+Where a machine develops a concealed defect during use, the purchaser should preserve records of when the problem appeared, operating conditions, servicing and repair attempts. The supplier may contend that the problem was caused by improper handling, transportation or storage. Article 255.1.3 addresses loss of claims in circumstances attributable to the buyer's conduct or certain exceptional events; the factual cause of the defect must therefore be established.
 
-External advisers may receive pricing, investment plans, employee information and sensitive dispute records. The retainer should define the permitted use of the information, access controls, disclosure to others and return or deletion at the end of the engagement. Handling records containing personal data must also comply with applicable provisions of the [Law on Personal Data Protection](https://legalinfo.mn/mn/detail?lawId=16390288615991).
+## Can a buyer cancel an entire supply contract over a partial defect?
 
-Where an advocate is involved, duties of professional confidentiality and rules on conflicts of interest require independent consideration. A law firm should check whether a proposed instruction conflicts with duties owed to another client before accepting it. Contractual confidentiality clauses alone do not replace statutory professional obligations.
+Article 256.2 provides an important distinction. Where several goods are sold and only some are defective, cancellation may relate to the defective part. Cancellation of the entire agreement can become relevant where the defective part must be used together with the other goods for an integrated purpose. The fact that a contract has a high value does not, without more, justify cancellation in full.
 
-## Retainers and litigation representation
+Article 256.1 also addresses contractual cancellation in connection with defects and the seller's responsibility for losses and expenses suffered by the buyer. A damages claim requires appropriate proof of the relevant breach, loss and causal connection; an unsupported assertion that the supplier failed to comply with the contract does not, by itself, establish the amount of recoverable loss.
 
-Article 22 of Mongolia's [Law on Advocacy](https://legalinfo.mn/mn/detail?lawId=14859) requires a written or electronic agreement for professional advocacy services addressing the work, fees, costs, responsibilities and termination. A general contract for recurring legal advice should not be assumed to cover every court appearance or procedural stage. Litigation instructions can separately specify pleadings, evidence, hearings, appeals and enforcement assistance, as well as the advocate authorised to act.
+## How to document and pursue a claim
 
-A continuing legal relationship is also useful before a dispute arises. Periodic review of standard contracts, documentation of HR decisions, monitoring of overdue receivables and legal assessment of new products can help businesses identify problems while they remain manageable.
+The buyer should be able to connect the identified goods to the contractual specification, delivery records, invoices, payment evidence and inspection findings. Photographs, videos, testing logs, maintenance records and written correspondence may show what was supplied, when the defect emerged, and how the supplier was informed. A written notice should identify the affected items, the alleged deficiencies, the evidence and the remedy sought, such as repair, replacement or reimbursement.
 
-LawMongolia is a legal-services brand of Corplex Consulting LLC. Its [corporate and commercial practice information](https://lawmongolia.mn/services) outlines the types of contract and legal advisory matters relevant to Mongolian businesses.
+Where the contract specifies the address, method or period for defect notifications, those provisions require close attention. A properly preserved email chain and evidence of receipt may be as important as the technical report. If the dispute cannot be settled, the buyer should assess whether an independent expert examination or technical opinion is required and preserve the underlying goods and records where appropriate.
+
+Consumer transactions may attract additional rules under Mongolia's [Law on Consumer Protection](https://legalinfo.mn/mn/detail?lawId=551). Those consumer-specific remedies should not be assumed to apply automatically and in identical form to every business-to-business supply relationship.
 
 ## Primary legal sources
 
-- [Civil Code of Mongolia](https://legalinfo.mn/mn/detail?lawId=299).
-- [Law on Advocacy, Articles 18, 22 and 23](https://legalinfo.mn/mn/detail?lawId=14859).
-- [Law on Personal Data Protection](https://legalinfo.mn/mn/detail?lawId=16390288615991).
+- [Civil Code, Articles 253–256](https://legalinfo.mn/mn/detail?lawId=299).
+- [Law on Consumer Protection, Articles 6 and 10](https://legalinfo.mn/mn/detail?lawId=551).
+- [Supreme Court decision discussing Civil Code Articles 254 and 255](https://www.supremecourt.mn/mn/print?id=45032).

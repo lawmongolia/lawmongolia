@@ -1,60 +1,58 @@
 ---
-title: 'Technology and fintech law firms and lawyers in Mongolia: legal services for digital businesses'
-description: The scope of technology and fintech legal services in Mongolia, including payment regulation, data protection, software contracts, electronic signatures
-  and legal representation.
-author: itgel-galsanjamts
-date: '2026-10-20'
-updated: '2026-10-20'
-category: Technology and Fintech
-slug: technology-fintech-law-firm-lawyer-mongolia-2026
-lang: en
+title: "Who owns the source code and exploitation rights in commissioned software developed in Mongolia?"
+description: "An explanation of copyright in commissioned software, access to source code, pre-existing modules, third-party licences, acceptance of deliverables and contract termination under Mongolian law."
+author: "itgel-galsanjamts"
+date: "2026-10-20"
+updated: "2026-10-20"
+category: "Technology and Intellectual Property"
+slug: "commissioned-software-source-code-copyright-mongolia-2026"
+lang: "en"
 relatedServices:
-- technology-digital-platforms
-- fintech-financial-regulation
-- contracts
-- litigation-dispute-resolution
-translation: tsahim-salbar-fintek-huuliin-firm-umguulugch-2026
+  - technology-digital-platforms
+  - contracts
+  - corporate-commercial
+translation: "zahialgat-programm-eh-kod-zohiogchiin-erh-mongol-2026"
 draft: false
 ---
 
-Technology and fintech companies routinely manage software development, electronic contracting, customer data, payment processes, financial products and relationships with multiple suppliers. Different laws govern these activities. Legal services for digital businesses consequently extend beyond preparing a customer contract. A law firm or lawyer advising a technology company must determine how the product works, identify regulated activities and define the rights, obligations and liabilities of the parties involved.
+When a company commissions an online platform, mobile application, internal management system or payment-related software, it needs more than a functioning application. It must understand who holds the economic rights in the software, who can access and maintain the source code, and whether the system can be operated by a new supplier after the development contract ends. These are distinct contractual and technical questions. A company may have the right to use or exploit a work yet lack the credentials, documentation or third-party licences needed to exercise that right independently.
 
-This is relevant in Mongolia to financial technology, electronic commerce, online marketplaces, transport and delivery applications, and other platforms. A single application may combine ordering, customer balances, lending, rewards and electronic signatures. Each function requires its own legal classification and assessment of the entities operating it.
+Mongolia's [Law on Copyright](https://legalinfo.mn/mn/detail?lawId=16230812154721) expressly includes computer programs among protected works under Article 6.1.10. Article 22 contains specific provisions governing authorship, exploitation rights in software created by employees or on commission, and specified acts by lawful users. Accordingly, the legal analysis should distinguish the author, the holder of the exclusive right to exploit the commissioned work, the owner of infrastructure accounts and the contractual recipient of the deliverables.
 
-## Regulation of payment services and financial activities
+## The statutory rule for commissioned software
 
-Under Article 10 of Mongolia's [Law on the National Payment System](https://legalinfo.mn/mn/detail?lawId=12668), the Bank of Mongolia issues permissions for specified payment and related activities. Article 16 addresses activities conducted without the required authorisation, while Article 35 defines the characteristics of electronic money. An in-app balance recorded in monetary units is not automatically electronic money, but the company must examine whether the product constitutes a regulated payment service or instrument.
+Article 22.1 of the Law on Copyright identifies the author of a computer program as the individual or individuals who created it. Under Article 22.3, unless the agreement provides otherwise, the employer holds the exclusive right to exploit software created in the course of employment duties; for commissioned computer programs, the customer holds the exclusive exploitation right unless the contract provides otherwise. The provisions distinguish authorship from rights of economic exploitation.
 
-A balance usable only against the platform's own services differs from a wallet that can be transferred to other users, accepted by independent merchants or redeemed for funds. The assessment should cover the actual payment flow, app functionality and agreements with banks and technology suppliers. Where a licensed provider is involved, the documents must identify who performs each regulated activity, who controls funds and how customer obligations are allocated.
+A software developer can remain the individual author while the company commissioning the particular program enjoys its exclusive exploitation rights under the statutory default. The provision does not, however, mean that every pre-existing library, framework or independently owned component incorporated in a delivered system automatically becomes the customer's property. It is necessary to identify which parts were specifically created under the commission and which are subject to prior rights or third-party licences.
 
-Lending, deferred-payment products and receivables financing present different issues. The parties should establish which entity provides the money and which entity has the enforceable repayment claim. Banks, non-bank financial institutions and other money-lending businesses are governed by different legal regimes. A contractual description of an entity as a technology supplier cannot replace the analysis of whether that entity is performing a regulated financial activity.
+For example, an order-management application may combine new bespoke code with the supplier's pre-existing authentication module, open-source packages and a commercial mapping service. The rights arising in the bespoke commissioned component do not automatically rewrite the licence terms governing those other components. The contract should describe the provenance and permitted use of important third-party and pre-existing elements, including restrictions on modification, redistribution and continued operation.
 
-## Personal data, cybersecurity and outsourcing
+## Exploitation rights do not themselves provide access to source code
 
-Articles 7 and 8 of the [Law on Personal Data Protection](https://legalinfo.mn/mn/detail?lawId=16390288615991) govern the lawful grounds for processing personal data and the information that must accompany a request for consent. A controller must explain the types of data, processing purposes, duration, potential transfers and the means by which consent may be withdrawn. Digital companies need appropriate account-opening screens, acceptance records and procedures for handling data-subject requests, rather than treating privacy notices as the only compliance mechanism.
+The right to exploit a computer program is legally distinct from possession of the repository containing its source code. A customer may have a strong legal position concerning the program developed on commission but still lack access to version history, configuration files, build instructions, administrator accounts or recovery backups. This can prevent another developer from operating, testing or modifying the system without additional expense.
 
-A contract with an external software developer, cloud provider, call centre or data processor should clearly address access rights, permitted uses, confidentiality, security requirements, incident notification and the return or deletion of data when the engagement ends. Outsourcing software development does not automatically transfer the platform's statutory obligations to the supplier.
+The contract should therefore define the technical deliverables independently of the intellectual-property provisions. Depending on the project, deliverables may include source-code repositories and version history, architecture documentation, configuration and deployment instructions, third-party dependency and licence lists, database schemas, recovery procedures, API documentation and the handover of relevant administrative credentials. This is not merely a matter of convenience: a deliverable that cannot be maintained or deployed may not satisfy the commercial purpose of the development arrangement.
 
-The [Law on Cybersecurity](https://legalinfo.mn/mn/detail?lawId=16390365491061) includes provisions addressing information systems, networks and cybersecurity risk assessments. Whether a particular business faces additional obligations must be determined from its legal status and operating model.
+The converse is also true. Hosting a copy of the code on one's own infrastructure does not establish that the holder is entitled to use every copyright-protected component without restriction. Likewise, a right to exploit the commissioned work does not in itself confer ownership of a supplier's personal cloud account or eliminate fees owed to an independent software-licensing provider.
 
-## Electronic agreements and ownership of software
+## Acceptance criteria and defective performance
 
-Article 6.3 of the [Law on Electronic Signatures](https://legalinfo.mn/mn/detail?lawId=16390355252531) recognises the legal equivalence of a qualifying digital signature and a handwritten signature. A one-time code, click or record of app usage may be relevant evidence, but these actions are not necessarily equivalent in every legal context. The platform should preserve reliable records showing which user accepted which version of the terms and when the acceptance occurred.
+Depending on its substance, a software-development arrangement may fall within the work-contract provisions of Mongolia's [Civil Code](https://legalinfo.mn/mn/detail?lawId=299). Articles 350 and 351 address the duties of the contractor and customer, while Article 352 specifies remedies concerning defective work. Where the result is defective, remedies may include correction at the contractor's expense, correction at the customer's initiative with recovery of expenses in circumstances provided by law, or a proportionate reduction of remuneration.
 
-Software-development and IT-service agreements should identify milestones, acceptance tests, defect-remediation deadlines, source-code delivery, intellectual-property rights, service-level obligations, termination assistance and data migration. Payment for development does not necessarily transfer every intellectual-property right in the resulting software. Ownership and licensing need express and effective contractual treatment.
+A meaningful acceptance procedure should test contractual outcomes rather than merely record that an application has been launched. It can cover access controls, transaction logs, resilience and restoration, data export, interfaces, error handling and any product-specific functional requirements. Test records, defect reports, agreed correction periods and evidence of retesting allow both sides to identify the point at which performance was accepted and any outstanding issues.
 
-## Legal representation in technology disputes
+The customer's entitlement to particular remedies may depend on the circumstances of acceptance, its awareness of deficiencies and the contract terms. Article 352.4 is especially relevant where the customer knowingly accepts defective results. An undifferentiated handover certificate can therefore be less useful than an acceptance record expressly identifying completed tests and any unresolved defects.
 
-Disputes involving digital businesses may concern unpaid development fees, deficient performance, electronic contract formation, access to data, intellectual property, consumer protection or an administrative decision. Lawyers acting in these matters may need to assess emails, server logs, technical handover reports and electronic acceptance records as evidence in addition to the terms of the contract.
+## Access and information when the relationship ends
 
-Articles 18 and 22 of the [Law on Advocacy](https://legalinfo.mn/mn/detail?lawId=14859) address forms of advocacy practice and the requirements for agreements to provide professional legal assistance. Continuing legal advice, review of a particular contract and representation in judicial proceedings should be distinguished clearly in the scope, pricing and responsibilities of an engagement.
+Operational control frequently remains with the development supplier after launch. The supplier may administer a domain, server, cloud tenant, code repository, database or encryption key. When the engagement ends, the customer needs to know which accounts are registered in its name, which permissions must be transferred and how long transition assistance will continue. Contract provisions should address transfer timelines, secure delivery of credentials, continuity of hosting and cooperation with a replacement provider.
 
-LawMongolia is a legal-services brand of Corplex Consulting LLC. Its [practice-area information](https://lawmongolia.mn/services) covers technology, fintech, commercial contracts and related regulatory matters.
+If the system processes customers' personal data, the [Law on Personal Data Protection](https://legalinfo.mn/mn/detail?lawId=16390288615991) also remains relevant. Ending a development agreement does not itself authorise the supplier to disclose customer records or use them for a different purpose. Lawful retention, return, deletion and evidence preservation must be considered under the applicable data-protection obligations.
+
+Even where the agreed development fee has been paid in full, failure to hand over documentation, repository access or operational credentials can result in substantial migration costs. The agreement should address ownership and exploitation rights, deliverables and acceptance, account control, and termination assistance as separate, mutually consistent obligations.
 
 ## Primary legal sources
 
-- [Law on the National Payment System, Articles 10, 16 and 35](https://legalinfo.mn/mn/detail?lawId=12668).
-- [Law on Personal Data Protection, Articles 7 and 8](https://legalinfo.mn/mn/detail?lawId=16390288615991).
-- [Law on Electronic Signatures, Article 6](https://legalinfo.mn/mn/detail?lawId=16390355252531).
-- [Law on Cybersecurity](https://legalinfo.mn/mn/detail?lawId=16390365491061).
-- [Law on Advocacy, Articles 18 and 22](https://legalinfo.mn/mn/detail?lawId=14859).
+- [Law on Copyright, Articles 6 and 22](https://legalinfo.mn/mn/detail?lawId=16230812154721).
+- [Civil Code, Articles 350–352](https://legalinfo.mn/mn/detail?lawId=299).
+- [Law on Personal Data Protection](https://legalinfo.mn/mn/detail?lawId=16390288615991).
