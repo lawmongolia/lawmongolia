@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { SITE_URL, BRAND } from './site';
+import { SITE_URL, BRAND, LOGO_SRC } from './site';
 import { path as langPath, type Lang } from './types';
 
 type Args = {
@@ -49,7 +49,7 @@ export function buildMetadata({
   languages['x-default'] = enUrl ?? mnUrl ?? canonical;
 
   const fullTitle = route === '/' ? title : `${title} — ${BRAND.name}`;
-  const selectedImage = image ? new URL(image, SITE_URL).href : undefined;
+  const selectedImage = new URL(image ?? LOGO_SRC, SITE_URL).href;
 
   return {
     title: fullTitle,
@@ -63,7 +63,7 @@ export function buildMetadata({
       description,
       locale: lang === 'mn' ? 'mn_MN' : 'en_US',
       alternateLocale: lang === 'mn' ? 'en_US' : 'mn_MN',
-      ...(selectedImage ? { images: [{ url: selectedImage, alt: imageAlt ?? title }] } : {}),
+      images: [{ url: selectedImage, alt: imageAlt ?? (image ? title : 'Official logo of Corplex Consulting LLC (LawMongolia)') }],
       ...(publishedTime ? { publishedTime } : {}),
       ...(modifiedTime ? { modifiedTime } : {}),
     },
@@ -71,7 +71,7 @@ export function buildMetadata({
       card: 'summary',
       title: fullTitle,
       description,
-      ...(selectedImage ? { images: [selectedImage] } : {}),
+      images: [selectedImage],
     },
   };
 }

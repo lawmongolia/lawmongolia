@@ -1,4 +1,4 @@
-import { SITE_URL, BRAND, ENTITY, CONTACT, OFFICE_PARTS, TAGLINE } from './site';
+import { SITE_URL, BRAND, ENTITY, CONTACT, OFFICE_PARTS, TAGLINE, LOGO_SRC } from './site';
 import { path as langPath, type Lang } from './types';
 import type { Person } from '@/content/people';
 import type { Article } from './insights';
@@ -26,9 +26,15 @@ export function organizationSchema(lang: Lang) {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
     '@id': `${SITE_URL}/#organization`,
-    name: ENTITY[lang],
+    name: `${ENTITY.en} (${BRAND.name})`,
+    alternateName: [ENTITY.en, ENTITY.mn, BRAND.name],
     legalName: ENTITY.en,
     brand: { '@type': 'Brand', name: BRAND.name },
+    logo: {
+      '@type': 'ImageObject',
+      url: `${SITE_URL}${LOGO_SRC}`,
+      contentUrl: `${SITE_URL}${LOGO_SRC}`,
+    },
     foundingDate: String(ENTITY.since),
     url: `${SITE_URL}${langPath(lang, '/')}`,
     description: TAGLINE[lang],
