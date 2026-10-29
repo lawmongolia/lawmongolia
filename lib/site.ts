@@ -68,6 +68,6 @@ export const VERIFICATION = {
 } as const;
 
 export const TAGLINE: L = {
-  en: 'Legal advice and representation for business',
-  mn: 'Бизнесийн хууль зүйн зөвлөгөө, өмгөөллийн үйлчилгээ',
+  en: 'Retained corporate legal counsel and fintech regulatory advice in Mongolia',
+  mn: 'Компанийн гэрээт хууль зүйн зөвлөгөө, финтек эрх зүй',
 };

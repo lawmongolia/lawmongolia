@@ -1,14 +1,13 @@
 import type { Metadata } from 'next';
 import { HomeView } from '@/components/views/HomeView';
-import { T } from '@/content/dictionary';
 import { buildMetadata } from '@/lib/seo';
 import { JsonLd, organizationSchema } from '@/lib/schema';
 
 export const metadata: Metadata = buildMetadata({
   lang: 'en',
   route: '/',
-  title: T.home.metaTitle['en'],
-  description: T.home.metaDescription['en'],
+  title: "Retained Corporate Legal Counsel & Fintech Law in Mongolia",
+  description: "Ongoing legal counsel for companies in Mongolia, plus regulatory advice for NBFIs, digital lending, BNPL, payment services and technology businesses.",
 });
 
 export default function Page() {

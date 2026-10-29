@@ -9,8 +9,19 @@ import { Section, Breadcrumbs } from '@/components/ui';
 export function ArticleView({ lang, article }: { lang: Lang; article: Article }) {
   const author = getPerson(article.author);
   const related = getArticles(lang)
-    .filter((a) => a.slug !== article.slug)
-    .slice(0, 3);
+    .filter((candidate) => candidate.slug !== article.slug)
+    .map((candidate) => ({
+      candidate,
+      overlap: candidate.relatedServices.filter((slug) => article.relatedServices.includes(slug)).length,
+    }))
+    .filter(({ overlap }) => overlap > 0)
+    .sort((a, b) => b.overlap - a.overlap || b.candidate.date.localeCompare(a.candidate.date))
+    .slice(0, 3)
+    .map(({ candidate }) => candidate);
+  const retainerArticle = [
+    'gereet-huuliin-zuvluh-uilchilgee-kompani-2026',
+    'retained-legal-counsel-for-companies-mongolia-2026',
+  ].includes(article.slug);
 
   return (
     <>
@@ -74,17 +85,27 @@ export function ArticleView({ lang, article }: { lang: Lang; article: Article })
         />
       </article>
 
-      {article.relatedServices.length > 0 && (
+      {(article.relatedServices.length > 0 || retainerArticle) && (
         <Section tone="warm">
           <h2 className="t-label mb-6 font-sans">{T.insights.relatedServices[lang]}</h2>
           <ul className="max-w-2xl border-t border-rule">
+            {retainerArticle && (
+              <li className="border-b border-rule">
+                <Link href={path(lang, '/services/ongoing-legal-services')}
+                  className="block py-4 font-serif text-[1.125rem] no-underline hover:text-[var(--accent)]">
+                  {lang === 'mn' ? 'Компанийн гэрээт хууль зүйн зөвлөх үйлчилгээ' : 'Retained legal counsel for companies'}
+                </Link>
+              </li>
+            )}
             {article.relatedServices.map((slug) => {
-              const s = getService(slug);
+              const mappedSlug = slug === 'dispute-resolution' ? 'litigation-dispute-resolution'
+                : slug === 'regulatory-compliance' ? 'administrative-regulatory' : slug;
+              const s = getService(mappedSlug);
               if (!s) return null;
               return (
                 <li key={slug} className="border-b border-rule">
                   <Link
-                    href={path(lang, `/services/${slug}`)}
+                    href={path(lang, `/services/${mappedSlug}`)}
                     className="block py-4 font-serif text-[1.125rem] no-underline hover:text-[var(--accent)]"
                   >
                     {s.title[lang]}
@@ -104,7 +125,7 @@ export function ArticleView({ lang, article }: { lang: Lang; article: Article })
               <li key={a.slug} className="border-b border-rule">
                 <Link
                   href={path(lang, `/insights/${a.slug}`)}
-                  className="block py-4 font-serif text-[1.125rem] no-underline hover:text-[var(--accent)]"
+                  className="group block py-4 font-serif text-[1.125rem] no-underline hover:text-[var(--accent)]"
                 >
                   {a.title}
                 </Link>

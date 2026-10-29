@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { route: '/', priority: 1 },
     { route: '/about', priority: 0.8 },
     { route: '/services', priority: 0.9 },
+    { route: '/services/ongoing-legal-services', priority: 0.9 },
     ...SERVICES.map((s) => ({ route: `/services/${s.slug}`, priority: 0.8 })),
     { route: '/people', priority: 0.8 },
     ...PEOPLE.map((p) => ({ route: `/people/${p.slug}`, priority: 0.9 })),
@@ -22,15 +23,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { route: '/legal-notice', priority: 0.3 },
   ];
 
-  const lastModified = new Date();
-
   const pages: MetadataRoute.Sitemap = [];
 
   for (const lang of LANGS) {
     for (const { route, priority } of routes) {
       pages.push({
         url: `${SITE_URL}${path(lang, route)}`,
-        lastModified,
         priority,
         alternates: {
           languages: {

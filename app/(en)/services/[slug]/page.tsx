@@ -3,8 +3,9 @@ import { notFound } from 'next/navigation';
 import { ServiceView } from '@/components/views/ServiceView';
 import { SERVICES, getService } from '@/content/services';
 import { T } from '@/content/dictionary';
+import { FINTECH_COUNSEL } from '@/content/focus-practices';
 import { buildMetadata } from '@/lib/seo';
-import { JsonLd, breadcrumbSchema } from '@/lib/schema';
+import { JsonLd, breadcrumbSchema, serviceSchema } from '@/lib/schema';
 
 const LANG = 'en' as const;
 
@@ -26,8 +27,8 @@ export async function generateMetadata({
   return buildMetadata({
     lang: LANG,
     route: `/services/${slug}`,
-    title: service.title[LANG],
-    description: service.metaDescription?.[LANG] ?? service.lead[LANG],
+    title: slug === 'fintech-financial-regulation' ? FINTECH_COUNSEL.metaTitle[LANG] : service.title[LANG],
+    description: slug === 'fintech-financial-regulation' ? FINTECH_COUNSEL.metaDescription[LANG] : service.metaDescription?.[LANG] ?? service.lead[LANG],
   });
 }
 
@@ -48,6 +49,13 @@ export default async function Page({
           { name: service.title[LANG], route: `/services/${slug}` },
         ])}
       />
+      <JsonLd data={serviceSchema({
+        slug: service.slug,
+        h1: service.slug === 'fintech-financial-regulation' ? FINTECH_COUNSEL.title : service.title,
+        metaDescription: service.slug === 'fintech-financial-regulation'
+          ? FINTECH_COUNSEL.metaDescription
+          : service.metaDescription ?? service.lead,
+      }, LANG)} />
       <ServiceView lang={LANG} service={service} />
     </>
   );
