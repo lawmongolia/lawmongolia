@@ -22,7 +22,13 @@ function neutralRoute(pathname: string): string {
   return pathname || '/';
 }
 
-export function Header({ lang }: { lang: Lang }) {
+export function Header({
+  lang,
+  articleTranslations,
+}: {
+  lang: Lang;
+  articleTranslations: Record<string, string>;
+}) {
   const pathname = usePathname() ?? '/';
   const [open, setOpen] = useState(false);
   const route = neutralRoute(pathname);
@@ -33,12 +39,18 @@ export function Header({ lang }: { lang: Lang }) {
 
   useEffect(() => {
     document.body.style.overflow = open ? 'hidden' : '';
-    return () => {
-      document.body.style.overflow = '';
-    };
+    return () => { document.body.style.overflow = ''; };
   }, [open]);
 
   const other: Lang = lang === 'en' ? 'mn' : 'en';
+  const articleSlug = /^\/insights\/([^/]+)\/?$/.exec(route)?.[1];
+  // The translated edition may have a completely different slug.
+  // Without a translation, go to the other language's Insights index (not a 404).
+  const translatedRoute = articleSlug
+    ? articleTranslations[articleSlug]
+      ? `/insights/${articleTranslations[articleSlug]}`
+      : '/insights'
+    : route;
 
   return (
     <header className="sticky top-0 z-50 border-b border-rule bg-paper/95 backdrop-blur-sm">
@@ -74,14 +86,10 @@ export function Header({ lang }: { lang: Lang }) {
           <span className="h-4 w-px bg-rule" aria-hidden />
 
           <span className="flex items-center gap-1.5 font-sans text-[0.8125rem]">
-            <span aria-current="true" className="text-ink">
-              {lang.toUpperCase()}
-            </span>
-            <span className="text-rule" aria-hidden>
-              |
-            </span>
+            <span aria-current="true" className="text-ink">{lang.toUpperCase()}</span>
+            <span className="text-rule" aria-hidden>|</span>
             <Link
-              href={path(other, route)}
+              href={path(other, translatedRoute)}
               hrefLang={other}
               className="link-quiet"
               aria-label={`${T.common.languageSwitch[lang]}: ${other.toUpperCase()}`}
@@ -122,10 +130,12 @@ export function Header({ lang }: { lang: Lang }) {
           </ul>
           <div className="shell flex items-center gap-2 border-t border-rule py-4 font-sans text-[0.875rem]">
             <span className="text-ink">{lang.toUpperCase()}</span>
-            <span className="text-rule" aria-hidden>
-              |
-            </span>
-            <Link href={path(other, route)} hrefLang={other} className="link-quiet">
+            <span className="text-rule" aria-hidden>|</span>
+            <Link
+              href={path(other, translatedRoute)}
+              hrefLang={other}
+              className="link-quiet"
+            >
               {other.toUpperCase()}
             </Link>
           </div>

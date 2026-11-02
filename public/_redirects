@@ -1,0 +1,47 @@
+# LawMongolia - Search Console 44 incorrect-language article URLs (2026-11-02)
+# Each destination is the matching translation; these are permanent HTTP 301 redirects.
+# Keep valid article URLs untouched. Use with Cloudflare Workers Static Assets.
+/mn/insights/employee-discipline-deadlines-procedure-mongolia-2026 /mn/insights/sahilgiin-shiitgel-nogduulah-hugatsaa-tailbar-2026 301
+/insights/sahilgiin-shiitgel-nogduulah-hugatsaa-tailbar-2026 /insights/employee-discipline-deadlines-procedure-mongolia-2026 301
+/insights/itgemjlel-hugatsaa-huchingui-bolgoh-2026 /insights/power-of-attorney-validity-revocation-mongolia-2026 301
+/mn/insights/recovering-apartment-rental-security-deposit-mongolia-2026 /mn/insights/oron-suuts-holsloh-bartsaa-mungu-butsaah-2026 301
+/mn/insights/how-to-choose-litigation-lawyer-in-mongolia-2026 /mn/insights/shuuh-margaand-umguulugch-songoh-2026 301
+/mn/insights/retained-legal-counsel-for-companies-mongolia-2026 /mn/insights/gereet-huuliin-zuvluh-uilchilgee-kompani-2026 301
+/mn/insights/unemployment-benefit-mongolia-2026-2027 /mn/insights/ajilguidliin-tetgemj-2026-2027-erh-hemjee-hugatsaa 301
+/mn/insights/beneficial-ownership-registration-mongolia /mn/insights/etssiin-umchlugch-burtgel 301
+/mn/insights/enforcing-unpaid-money-judgments-mongolia-2026 /mn/insights/shuuh-shiidver-tulbur-biylehgui-bol-2026 301
+/insights/oron-suuts-holsloh-bartsaa-mungu-butsaah-2026 /insights/recovering-apartment-rental-security-deposit-mongolia-2026 301
+/mn/insights/defective-goods-consumer-refund-mongolia-2026 /mn/insights/chanargui-baraa-mungu-butsaah-erh-2026 301
+/mn/insights/pharmacy-insurance-claim-email-delay-administrative-court-mongolia /mn/insights/tsahim-shuudan-hotsrolt-daatchlal-nuhun-olgovor 301
+/insights/zeel-butsaaj-tuluuleh-huu-aldangi-shuuhiin-nehmeljlel-2026 /insights/recovering-private-loans-interest-penalties-mongolia-2026 301
+/insights/zahialgat-programm-eh-kod-zohiogchiin-erh-mongol-2026 /insights/commissioned-software-source-code-copyright-mongolia-2026 301
+/insights/ajilguidliin-tetgemj-2026-2027-erh-hemjee-hugatsaa /insights/unemployment-benefit-mongolia-2026-2027 301
+/mn/insights/supplier-breach-advance-payment-recovery-mongolia-2026 /mn/insights/niiluulegch-geree-zurchvul-uridchilgaa-mungu-2026 301
+/mn/insights/automated-credit-scoring-data-subject-rights-mongolia /mn/insights/avtomat-zeeliin-shiidver-huviin-medeelel 301
+/insights/chanargui-baraa-mungu-butsaah-erh-2026 /insights/defective-goods-consumer-refund-mongolia-2026 301
+/insights/shuuh-shiidver-tulbur-biylehgui-bol-2026 /insights/enforcing-unpaid-money-judgments-mongolia-2026 301
+/mn/insights/bnpl-deferred-payment-credit-classification-mongolia /mn/insights/bnpl-daraa-tuluh-zeel-gereenii-angilal 301
+/insights/undur-nasny-tetgever-bodoh-2026-2027-shinchlel /insights/old-age-pension-calculation-mongolia-2026-2027 301
+/insights/niiluulegch-geree-zurchvul-uridchilgaa-mungu-2026 /insights/supplier-breach-advance-payment-recovery-mongolia-2026 301
+/insights/baraa-niiluulelt-dogoldol-hudaldan-avagchiin-erh-2026 /insights/defective-goods-supply-buyer-remedies-mongolia-2026 301
+/mn/insights/defective-goods-supply-buyer-remedies-mongolia-2026 /mn/insights/baraa-niiluulelt-dogoldol-hudaldan-avagchiin-erh-2026 301
+/mn/insights/old-age-pension-calculation-mongolia-2026-2027 /mn/insights/undur-nasny-tetgever-bodoh-2026-2027-shinchlel 301
+/mn/insights/recovering-private-loans-interest-penalties-mongolia-2026 /mn/insights/zeel-butsaaj-tuluuleh-huu-aldangi-shuuhiin-nehmeljlel-2026 301
+/mn/insights/foreign-digital-entrepreneur-registration-mongolia-2026 /mn/insights/gadaad-tsahim-biznes-erhlegch-burtgel-2026 301
+/mn/insights/mongolia-family-court-procedure-november-2026 /mn/insights/ger-buliin-shine-huuli-2026-umguulugch 301
+/mn/insights/mongolia-llc-share-sale-preemptive-rights-2026 /mn/insights/hhk-huvitsaa-hudaldah-terguun-eelj-erh-2026 301
+/mn/insights/commissioned-software-source-code-copyright-mongolia-2026 /mn/insights/zahialgat-programm-eh-kod-zohiogchiin-erh-mongol-2026 301
+/insights/hhk-huvitsaa-hudaldah-terguun-eelj-erh-2026 /insights/mongolia-llc-share-sale-preemptive-rights-2026 301
+/mn/insights/power-of-attorney-validity-revocation-mongolia-2026 /mn/insights/itgemjlel-hugatsaa-huchingui-bolgoh-2026 301
+/mn/insights/property-damage-tort-compensation-five-year-limit-mongolia-2026 /mn/insights/ediin-horongo-gem-hor-nuhun-tulbur-5-jil-2026 301
+/insights/ediin-horongo-gem-hor-nuhun-tulbur-5-jil-2026 /insights/property-damage-tort-compensation-five-year-limit-mongolia-2026 301
+/insights/tsahim-shuudan-hotsrolt-daatchlal-nuhun-olgovor /insights/pharmacy-insurance-claim-email-delay-administrative-court-mongolia 301
+/insights/avtomat-zeeliin-shiidver-huviin-medeelel /insights/automated-credit-scoring-data-subject-rights-mongolia 301
+/insights/etssiin-umchlugch-burtgel /insights/beneficial-ownership-registration-mongolia 301
+/insights/gereet-huuliin-zuvluh-uilchilgee-kompani-2026 /insights/retained-legal-counsel-for-companies-mongolia-2026 301
+/insights/ger-buliin-shine-huuli-2026-umguulugch /insights/mongolia-family-court-procedure-november-2026 301
+/insights/shuuh-margaand-umguulugch-songoh-2026 /insights/how-to-choose-litigation-lawyer-in-mongolia-2026 301
+/insights/gadaad-tsahim-biznes-erhlegch-burtgel-2026 /insights/foreign-digital-entrepreneur-registration-mongolia-2026 301
+/insights/bnpl-daraa-tuluh-zeel-gereenii-angilal /insights/bnpl-deferred-payment-credit-classification-mongolia 301
+/mn/insights/contractual-limitation-period-and-acknowledgment-of-debt-mongolia /mn/insights/gereenii-shaardlaga-hoon-heleltseh-hugatsaa-or-huleen-zovshooroh 301
+/insights/undeslelgui-ajlaas-halagdsan-bol-yah-ve /insights/unlawful-dismissal-mongolia 301

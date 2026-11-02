@@ -2,9 +2,13 @@ import type { ReactNode } from 'react';
 import { Header } from './Header';
 import { Footer } from './Footer';
 import { T } from '@/content/dictionary';
+import { getArticleLanguageMap } from '@/lib/article-language-map';
 import type { Lang } from '@/lib/types';
 
 export function Shell({ lang, children }: { lang: Lang; children: ReactNode }) {
+  // Server-side frontmatter lookup; no filesystem code in the client component.
+  const articleTranslations = getArticleLanguageMap(lang);
+
   return (
     <>
       <a
@@ -13,7 +17,7 @@ export function Shell({ lang, children }: { lang: Lang; children: ReactNode }) {
       >
         {T.nav.skip[lang]}
       </a>
-      <Header lang={lang} />
+      <Header lang={lang} articleTranslations={articleTranslations} />
       <main id="main">{children}</main>
       <Footer lang={lang} />
     </>
