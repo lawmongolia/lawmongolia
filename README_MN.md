@@ -1,38 +1,48 @@
-# LawMongolia: Google Search Console 44 incorrect-language URL repair
+# LawMongolia — Монгол/Англи 4 хос нийтлэлийн засварласан багц
 
-**Шалгасан огноо:** 2026-11-02
-**Шалгасан эх сурвалж:** lawmongolia.mn-Coverage-Drilldown-2026-11-02.xlsx (`Not found (404)`), GitHub `lawmongolia/lawmongolia` main дахь Header.tsx, Shell.tsx, нийтлэлийн frontmatter.
+Бэлтгэсэн: 2026-11-06
 
-## Яг юу илэрсэн бэ?
+## Ямар алдааг зассан бэ?
 
-44 URL бүгд нийтлэлийн хэлтэй зөрсөн замтай: англи article slug `/mn/insights/` дор эсвэл монгол slug `/insights/` дор байна. Одоогийн `components/Header.tsx` хэл солих товчид `path(other, route)` хэрэглэснээр зөвхөн prefix өөрчилж, орчуулгын slug-г солихгүй байна.
+2026-11-05-нд гаргасан ZIP-д 4 монгол нийтлэл байсан боловч англи хувилбарууд байгаагүй. 2026-11-06-ны шалгалтаар уг 4 монгол нийтлэл GitHub-ийн `lawmongolia/lawmongolia` репозиторийн `main` салбар болон амьд сайтад нэмэгдсэн, харин тохирох англи файлууд ороогүй байв.
 
-Энэ нь 44 бодит нийтлэл устсан эсвэл 44 хуудас өмнө нь Google-д индекст байсан гэсэн баталгаа биш. Графикаар 2026-10-17-нд 12, 2026-10-20-нд 44 алдаа бүртгэгджээ.
+Энэ багцад:
+- **4 шинэ англи эх** (`lang: en`, `date: 2026-11-06`);
+- **4 монгол эхийн зөвхөн YAML metadata засварласан хуулбар** (`translation: англи-slug`); эх бичвэр, URL, нийтэлсэн огноо хэвээр;
+- `GIT_APPLY.patch` — шинэ англи файлууд болон монгол metadata-ийн хамгийн бага өөрчлөлтийг хэрэглэх patch;
+- `SOURCES_AND_QA.md` — эх сурвалж, эрсдэл, QA;
+- `ARTICLE_MAPPING.csv` — хоёр хэлний URL болон файлын харьцуулалт багтсан.
 
-## Суух файлууд
+## Нийтлэл тус бүрийн англи гарчиг
 
-- `components/Header.tsx` (ОДОО БАЙГААГ СОЛИНО) — хэл солих товчийг зөв article slug ашигладаг болгоно.
-- `components/Shell.tsx` (ОДОО БАЙГААГ СОЛИНО) — серверээс орчуулгын зураглал дамжуулна.
-- `lib/article-language-map.ts` (ШИНЭ) — нийтлэлийн Markdown frontmatter-ийн `lang`, `slug`, `translation`-оор зураглал үүсгэнэ. Нийтлэлийн body-г дахин render хийхгүй.
-- `public/_redirects` (ШИНЭ) — 44 буруу URL-ийг тухайн нийтлэлийн зөв хэлний орчуулга руу HTTP 301 чиглүүлнэ.
+1. **Limitation of liability in Mongolian commercial contracts: what businesses should review**
+2. **SaaS contracts in Mongolia: SLAs, data protection and a workable exit plan**
+3. **Who owns software copyright in Mongolia: employees, contractors and clients**
+4. **Commercial disputes in Mongolia: evidence to prepare before filing a claim**
 
-Эдгээрээс өөр файл солихгүй. `content/insights`, `content/people.ts`, `app/sitemap.ts`, `lib/seo.ts`, `lib/site.ts`-д гар хүрэхгүй.
+## Нийтлэх арга
 
-## Суулгах аюулгүй дараалал
+Дараах файлуудыг төслийн `content/insights/` хавтсанд байрлуулах байдлаар бэлтгэсэн. Шинэ 4 англи файл нэмэгдэнэ; одоогийн 4 монгол файл дээр **зөвхөн `translation` талбар** нэмэгдэнэ. `title`, `description`, `slug`, `date`, `updated`, нийтлэлийн агуулга өөрчлөгдөхгүй.
 
-1. `lawmongolia`-ийн одоогийн `main` салбарын өөрчлөлтийг GitHub Desktop дээр `Fetch/Pull` хийнэ.
-2. Өөрийн орон нутгийн засвар байгаа бол commit эсвэл backup хийнэ.
-3. ZIP-ийн `components`, `lib`, `public` хавтсыг repository root-д нэгтгэн хуулна. *Зөвхөн* `Header.tsx` ба `Shell.tsx` солигдоно.
-4. `npm ci`, `npm run typecheck`, `npm run build` ажиллуулж шалгана.
-5. GitHub Desktop-ийн `Changes`-ийг үзээд commit/push хийнэ.
-6. Cloudflare Workers шинэ build deploy хийсэн эсэхийг шалгана. GitHub-д Push хийх нь дангаараа шинэ production хувилбар ажиллаж байна гэсэн баталгаа биш.
-7. Deploy-ийн дараа 44 буруу URL-д HTTP 301 + `Location` зөв target, зөв target-д HTTP 200 буцаж байгаа эсэхийг шалгана. Хэл солих товчоор MN↔EN аль алинаар нь жишээ нийтлэлүүдийг шалгана.
-8. Search Console → Page indexing → Not found (404) → Validate fix (ЗӨВХӨН production тест амжилттай болсны дараа). `404`-ийн тоо цөөрөх боловч эдгээр буруу URL `Page with redirect` бүлэгт байж болно — энэ нь хэвийн.
+Сайтын `lib/insights.ts` нь англи, монгол Markdown-ийг frontmatter-ээр уншдаг. `app/(en)/insights/[[...slug]]/page.tsx` болон `app/(mn)/mn/insights/[[...slug]]/page.tsx` нь `translation`-ийн дагуу хоёр хэлний `hreflang` холбоос үүсгэнэ. `app/sitemap.ts` шинэ нийтлэл тус бүрийг автоматаар жагсаадаг. **Сайтын код, одоо индексжсэн хуудсууд, URL slug-уудыг солих шаардлагагүй.**
 
-## Эх сурвалж ба техникийн анхааруулга
+### Git patch ашиглах бол
 
-- Cloudflare Workers static assets `_redirects`: https://developers.cloudflare.com/workers/static-assets/redirects/
-- Google permanent redirect guidance: https://developers.google.com/search/docs/crawling-indexing/301-redirects
-- Google Page indexing status: https://support.google.com/webmasters/answer/7440203?hl=en
+Репозиторийн үндсэн хавтсанд:
 
-**Production тест хийгдээгүй**. Эдгээр нь GitHub дээрх эх код ба Search Console экспортод тулгуурлан бэлтгэсэн засвар. Хайлт дахь байрлал, өмнөх impressions сэргээх баталгаа биш. `Discovered – currently not indexed` 80 хуудасны URL Excel энэ багцад байхгүй тул тусад нь шалгана.
+```bash
+git apply --check GIT_APPLY.patch
+git apply GIT_APPLY.patch
+```
+
+Patch-ийг 2026-11-06-ны `main` хувилбарт байсан монгол эхүүдтэй харьцуулж, шинэ англи файлууд байхгүй нөхцөлд тестэлсэн. Өөр хэрэглэгч зэрэг зассан бол patch-ийн зөрчлийг эхлээд үнэлнэ; одоо байгаа файлыг шууд дарж хуулж болохгүй.
+
+### Нийтлэхээс өмнөх хяналт
+
+1. Эх сурвалж/заалтын эцсийн редакцын хяналт хийж, мэргэжлийн орчуулгын эрх зүйн утгыг баталгаажуулна.
+2. Дөрвөн англи slug давхардаагүй эсэх, хоёр талын `translation` холболт хоёр чиглэлдээ таарч байгаа эсэхийг шалгана.
+3. `npm run build` эсвэл репозиторийн бодит build скриптээр build хийж, 8 URL-ийн хуудас, canonical/hreflang, sitemap, дотоод холбоосыг шалгана.
+4. Англи програмын зохиогчийн эрхийн сэдэв өмнө индексжсэн `/insights/commissioned-software-source-code-copyright-mongolia-2026`-тай ойролцоо. SEO cannibalization үүсэх эрсдэлийг редакцын түвшинд үнэлнэ; хуучин URL-ыг устгах, redirect хийхийг энэхүү багц санал болгоогүй.
+5. Нийтлэлийн дараа Search Console URL Inspection ашиглаж индексжүүлэлтийн бодит төлөвийг хянаж болно. Индексжих эсвэл эрэмбэ дээшлэх баталгаа байхгүй.
+
+**Энэ багц бэлтгэхдээ GitHub-д commit, PR, merge, сайт дээр шинэ нийтлэлт хийгээгүй.** Веб нийтлэл гаргах шийдвэрийг эрх бүхий этгээд баталгаажуулсны дараа хэрэгжүүлнэ.

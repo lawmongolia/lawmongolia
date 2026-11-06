@@ -1,0 +1,481 @@
+diff --git a/content/insights/gereenii-hariutslaga-hyazgaarlalt-b2b-2026.md b/content/insights/gereenii-hariutslaga-hyazgaarlalt-b2b-2026.md
+--- a/content/insights/gereenii-hariutslaga-hyazgaarlalt-b2b-2026.md
++++ b/content/insights/gereenii-hariutslaga-hyazgaarlalt-b2b-2026.md
+@@ -11,6 +11,7 @@
+   - contracts
+   - corporate-commercial
+   - litigation-dispute-resolution
++translation: limitation-of-liability-commercial-contracts-mongolia-2026
+ draft: false
+ ---
+ 
+diff --git a/content/insights/saas-geree-sla-data-garah-strategi-2026.md b/content/insights/saas-geree-sla-data-garah-strategi-2026.md
+--- a/content/insights/saas-geree-sla-data-garah-strategi-2026.md
++++ b/content/insights/saas-geree-sla-data-garah-strategi-2026.md
+@@ -11,6 +11,7 @@
+   - technology-digital-platforms
+   - contracts
+   - corporate-commercial
++translation: saas-contract-sla-data-protection-exit-mongolia-2026
+ draft: false
+ ---
+ 
+diff --git a/content/insights/program-hangamj-zohiogchiin-erh-ajiltan-guitsetgegch-2026.md b/content/insights/program-hangamj-zohiogchiin-erh-ajiltan-guitsetgegch-2026.md
+--- a/content/insights/program-hangamj-zohiogchiin-erh-ajiltan-guitsetgegch-2026.md
++++ b/content/insights/program-hangamj-zohiogchiin-erh-ajiltan-guitsetgegch-2026.md
+@@ -11,6 +11,7 @@
+   - technology-digital-platforms
+   - contracts
+   - corporate-commercial
++translation: software-copyright-employee-contractor-client-mongolia-2026
+ draft: false
+ ---
+ 
+diff --git a/content/insights/ariljaany-margaan-notloh-barimt-beltgeh-2026.md b/content/insights/ariljaany-margaan-notloh-barimt-beltgeh-2026.md
+--- a/content/insights/ariljaany-margaan-notloh-barimt-beltgeh-2026.md
++++ b/content/insights/ariljaany-margaan-notloh-barimt-beltgeh-2026.md
+@@ -11,6 +11,7 @@
+   - litigation-dispute-resolution
+   - contracts
+   - corporate-commercial
++translation: commercial-litigation-evidence-preparation-mongolia-2026
+ draft: false
+ ---
+ 
+diff --git a/content/insights/limitation-of-liability-commercial-contracts-mongolia-2026.md b/content/insights/limitation-of-liability-commercial-contracts-mongolia-2026.md
+new file mode 100644
+--- /dev/null
++++ b/content/insights/limitation-of-liability-commercial-contracts-mongolia-2026.md
+@@ -0,0 +1,98 @@
++---
++title: 'Limitation of liability in Mongolian commercial contracts: what businesses should review'
++description: 'A practical guide to liability caps in Mongolian B2B contracts: damages, contractual penalties, refunds, data breaches, IP claims and standard terms.'
++author: itgel-galsanjamts
++date: '2026-11-06'
++updated: '2026-11-06'
++category: Commercial Contracts
++slug: limitation-of-liability-commercial-contracts-mongolia-2026
++lang: en
++relatedServices:
++  - contracts
++  - corporate-commercial
++  - litigation-dispute-resolution
++translation: gereenii-hariutslaga-hyazgaarlalt-b2b-2026
++draft: false
++---
++
++A commercial contract may specify a reasonable price and a clear scope of work yet still leave a business exposed if its **limitation-of-liability clause** is poorly drafted. A party might suffer substantial losses from a breach but discover that the contract limits recovery to a fraction of those losses. A proper **contract review in Mongolia** must therefore examine not only the price, deadlines and late-payment penalties, but also **which party bears which loss, and up to what amount**.
++
++This is particularly important for software, IT infrastructure, logistics, supply arrangements and recurring services. The consequences of one serious failure may exceed several months of service fees. That does not mean liability caps are inherently unlawful or that unlimited liability is always commercially sensible. The objective is to allocate risk consistently with each party's obligations, control over the risk and commercial bargain.
++
++## 1. What is a limitation-of-liability clause?
++
++A liability cap is a contractual limit on specified monetary claims arising from a breach. For example, a supplier may propose limiting its aggregate exposure to the fees paid during the preceding 12 months. **That is a negotiation example, not a statutory liability ceiling under Mongolian law.**
++
++A useful review begins with three questions. Does the cap apply to each incident, each claim or all claims in the aggregate? Is it calculated against the total contract value, fees actually paid or fees during a defined period? Which obligations or categories of loss, if any, sit outside the cap?
++
++A clause that does not answer these questions may cause more uncertainty than it resolves. The meaning of "total liability" can become contentious when refunds, penalties, compensation and third-party claims arise together.
++
++## 2. Damages, contractual penalties and refunds are different remedies
++
++**Damages** concern the consequences of a breach and the required connection between the breach and the loss claimed. Article 227.3 of the [Civil Code of Mongolia](https://legalinfo.mn/mn/detail/299) addresses expenses incurred, loss of or damage to property, and income that would necessarily have been earned if performance had been proper. Evidence of the amount and causal connection remains important.
++
++**Contractual penalties** (*anz*, including certain delay penalties) are a separate mechanism. Civil Code Articles 232.4 and 232.6 impose a ceiling of 50% of the value of the unperformed obligation on the total contractual penalty and a daily ceiling of 0.5% of the value of the unperformed obligation for delay penalties. **These are rules about contractual penalties; they do not automatically cap every damages claim at 50%.**
++
++**Refunds, price reductions and service credits** may have distinct contractual functions. Refunding part of a monthly system fee following an outage does not, without more, establish that the customer has been compensated for the cost of rebuilding lost data.
++
++When a draft states that "all liability" is subject to one cap, ask whether it also captures agreed penalties, ordinary damages, repayment of an advance, service credits and indemnities arising from third-party claims. Treating all these concepts as interchangeable is a common drafting error.
++
++## 3. Can two businesses freely agree a liability cap?
++
++Article 189.1 of the Civil Code recognises contractual freedom within the boundaries of the law. Commercial parties can therefore negotiate the allocation of risks. **Contractual freedom does not displace mandatory legal requirements or the rules governing validity and standard terms.**
++
++Article 202.1 addresses standard contract terms that are contrary to the principles of good faith and fairness and are detrimental to the party accepting those terms. Article 202.2 contains additional restrictions relevant to standard terms in contracts with individuals who are not carrying on business activities. Those consumer-oriented restrictions should **not be applied indiscriminately to every business-to-business agreement**.
++
++The correct analysis of a pre-written clause such as "the supplier is not liable beyond the amounts paid" requires attention to the full agreement, the extent of actual negotiation, mandatory rules and the essential contractual obligations. The mere presence of a signed agreement is not a substitute for that assessment.
++
++## 4. Which risks deserve separate treatment?
++
++A liability-cap negotiation should identify the most important loss scenarios rather than assume that one number can adequately address every breach.
++
++- **Confidential information:** would a cap based on a small monthly fee be proportionate to the potential disclosure of source code, pricing, strategy or trade secrets?
++- **Personal data:** statutory obligations of a data controller or processor cannot simply be eliminated by a private allocation-of-liability clause.
++- **Third-party intellectual-property claims:** who manages the defence, replacement licences, settlement decisions and associated costs if supplied software infringes another party's rights?
++- **Intentional misconduct and serious fault:** whether a proposed exclusion or limitation is enforceable must be assessed against the applicable law and the circumstances, rather than assumed.
++- **Service interruption and data loss:** how do service credits interact with necessary recovery work and provable financial losses?
++
++These risks do not necessarily require unlimited liability. Depending on the contract, a higher dedicated cap, insurance, specific warranties, staged payments, an indemnity or an enforceable restoration obligation may be more appropriate.
++
++## 5. Does excluding 'indirect or consequential loss' solve the problem?
++
++International templates frequently exclude "indirect", "consequential" or "incidental" damages. Importing those expressions into a Mongolian-law contract without defining them can leave both parties unsure about what is actually excluded.
++
++Consider lost revenue from a failed production system, the cost of engaging a specialist to restore data and refunds paid to affected customers. These are economically distinct loss categories. Merely labelling a loss "indirect" does not answer whether a particular claim is excluded or whether the claimant can prove it under the applicable law.
++
++A more reliable drafting method is to identify **specific recoverable and excluded categories of loss**, while preserving the legal analysis required by Article 227.3 of the Civil Code. If English and Mongolian versions of the agreement are used, the defined terms should carry consistent meanings in both versions.
++
++## 6. A practical negotiation example
++
++Suppose a supplier operates a system that a customer uses to manage sales and customer data.
++
++**High-risk wording:** "The service provider's total liability shall not exceed one month's service fee. The customer shall have no other claim." This formulation may place core service failures, confidentiality breaches, restoration costs, refunds and other remedies under the same narrow ceiling without distinguishing their nature.
++
++**A more considered approach:** negotiate one cap for ordinary service failures, address confidentiality, data protection, third-party IP claims and refunds separately, and state expressly whether service credits are the sole remedy or may coexist with other claims in specified circumstances.
++
++Neither formulation is a model clause ready for insertion into any contract. The appropriate terms depend on the price, risk profile, scope of service, available insurance and negotiating position of the parties.
++
++## 7. Seven questions before signing
++
++1. Does the cap apply to a single incident, to each claim or to aggregate liability over the contract term?
++2. Does the fee base include VAT, additional services, prepaid amounts and payments from previous periods?
++3. Are the parties subject to reciprocal limits, or is one party's exposure effectively unlimited?
++4. How do damages, agreed penalties, service credits and repayment obligations interact?
++5. Are confidentiality, personal data and intellectual-property risks expressly addressed?
++6. Who controls notification, defence and settlement of third-party claims?
++7. Which liability and evidence-preservation obligations survive termination?
++
++## Conclusion
++
++The right question is not simply whether a commercial contract contains a liability cap. It is **what the cap covers, which risks are treated separately and what workable remedies remain after a breach**. Addressing those issues during negotiation is generally more effective than trying to reconstruct the intended allocation of risk after a dispute has arisen.
++
++For broader drafting points, see [seven issues to review in business contracts](/insights/business-contracts-seven-issues) and the discussion of [late-payment penalties under Mongolian law](/insights/late-payment-penalties-mongolia).
++
++Businesses seeking a risk-based review can explore our [commercial contract drafting and review](/services/contracts) and [ongoing legal advisory services](/services/ongoing-legal-services).
++
++**Legal sources:** [Civil Code of Mongolia, Articles 189, 202, 227 and 232](https://legalinfo.mn/mn/detail/299); [Supreme Court material illustrating Article 202.1](https://supremecourt.mn/mn/print?id=48090).
++
++*This article provides general legal information based on legislation reviewed as at 5 November 2026. It does not constitute legal advice on the enforceability of a particular liability clause.*
+diff --git a/content/insights/saas-contract-sla-data-protection-exit-mongolia-2026.md b/content/insights/saas-contract-sla-data-protection-exit-mongolia-2026.md
+new file mode 100644
+--- /dev/null
++++ b/content/insights/saas-contract-sla-data-protection-exit-mongolia-2026.md
+@@ -0,0 +1,107 @@
++---
++title: 'SaaS contracts in Mongolia: SLAs, data protection and a workable exit plan'
++description: 'What Mongolian businesses should negotiate in SaaS contracts: uptime and SLA remedies, processor agreements, overseas data transfers, incidents and data export.'
++author: itgel-galsanjamts
++date: '2026-11-06'
++updated: '2026-11-06'
++category: Technology Law
++slug: saas-contract-sla-data-protection-exit-mongolia-2026
++lang: en
++relatedServices:
++  - technology-digital-platforms
++  - contracts
++  - corporate-commercial
++translation: saas-geree-sla-data-garah-strategi-2026
++draft: false
++---
++
++When a business depends on **software as a service (SaaS)** for daily operations, the most important contractual question is rarely the subscription price alone. Business continuity depends on how quickly service is restored after an outage, who safeguards customer information and whether the customer can retrieve usable data when the relationship ends.
++
++Accepting a SaaS supplier's standard terms without a meaningful review may leave a company unable to migrate its records, limited to small service credits after major failures, or exposed to unexpectedly high switching costs. **SaaS contract review in Mongolia** therefore calls for a joint assessment of the master agreement, service-level agreement (SLA), data-processing terms and technical schedules.
++
++## 1. Define the service the customer is buying
++
++A statement that the supplier "grants access to software" does not adequately describe the service. The agreement and specification should address user limits, included modules, API integrations, storage allowances, charges for additional usage, support channels and the treatment of system updates.
++
++Consider a platform whose core application is operated by one supplier, whose payments depend on another company's API and whose notifications are sent through a third party. The agreement should distinguish failures attributable to each component and explain who is responsible for restoring the service. A blanket exclusion for "any interruption caused by third-party services" may leave a customer without a remedy for a critical dependency that the supplier itself selected.
++
++The schedule should also identify the production environment, relevant integrations, change-control process and acceptance criteria. Without that baseline, the parties may disagree about which components were included in the contracted service.
++
++## 2. An uptime promise is not enough: define the SLA calculation
++
++An SLA may set availability targets, response times, incident severity levels, maintenance windows, reporting obligations and restoration objectives. **The method of measurement matters as much as the percentage.**
++
++For example, a supplier might propose **99.9% monthly uptime**. This is an illustration of a possible contractual target, not a mandatory statutory service level in Mongolia. The contract still needs to specify the relevant time zone, measurement interval, excluded scheduled maintenance, whether APIs are included and which monitoring records prevail if the parties' readings differ.
++
++Incidents should be classified by impact. An inaccessible production system, loss of a critical transaction function, failure of an auxiliary module and a minor display issue are not equivalent. Response and restoration commitments should be tied to those differences and to measurable timestamps.
++
++Where service is business-critical, the parties may also consider recovery-time objectives, recovery-point objectives, incident communication and the consequences of repeated SLA failures. Those terms should describe capabilities that the supplier can actually deliver.
++
++## 3. Are service credits the customer's sole remedy?
++
++A **service credit** commonly reduces a future subscription invoice when a service-level target is missed. It is not necessarily a substitute for restoring the system, retrieving data, terminating for repeated material failures or claiming proven damages.
++
++A supplier may state that service credits are the customer's "sole and exclusive remedy" for SLA failures. That allocation might be workable for short, low-impact interruptions, but could be disproportionate where an outage is prolonged, core functions repeatedly fail or data becomes inaccessible.
++
++The actual enforceability and operation of such terms should be assessed against the [Civil Code of Mongolia, including Articles 189.1, 202.1 and 227](https://legalinfo.mn/mn/detail/299). The relevant inquiry concerns the terms agreed, their place in the overall contract, applicable mandatory rules and the facts of the breach.
++
++A more useful escalation structure may combine a cure period and corrective-action plan with a right to terminate once defined thresholds are exceeded, followed by secure data export and transition assistance. The agreement should state clearly whether service credits are exclusive or coexist with specified other remedies.
++
++## 4. Personal data requires more than a general confidentiality clause
++
++A SaaS platform may store or process **personal data** relating to customers, employees or platform users. If so, general software licensing terms and a one-line confidentiality undertaking are not sufficient to allocate the associated legal and operational responsibilities.
++
++Under [Articles 19.1–19.3 of Mongolia's Law on Personal Data Protection](https://legalinfo.mn/mn/detail/16390288615991), a data controller may delegate collection and processing to a processor under a contract. The contract must identify the processing purpose, duration, categories of data and arrangements safeguarding data-subject rights. It must also deal with the transfer of the processor's obligations and liability.
++
++A data-processing schedule should distinguish, at a minimum:
++
++- the data categories, processing purposes and applicable consent or other legal basis;
++- whether the supplier may use the data outside the customer's documented instructions;
++- the notification, approval and responsibility arrangements for subprocessors;
++- access controls, logging, encryption, backup and other proportionate safeguards;
++- incident reporting, investigation, evidence preservation and recovery procedures; and
++- return of personal data and processing results, followed by appropriate deletion when the contracted purpose ends.
++
++This is a practical contracting checklist, **not a claim that every listed technical measure is mandated verbatim by one statutory clause**. Security requirements should reflect the service and the risks. Article 19.5 also makes clear that a processor's failure to follow instructions does not in itself free the controller from its responsibilities to data subjects.
++
++## 5. What if the supplier or its servers are overseas?
++
++Using a foreign cloud or SaaS provider is not inherently unlawful. The assessment should identify where the information is stored and backed up, which entity receives it, where support teams can access it and which subprocessors are involved.
++
++[Article 14.1 of the Law on Personal Data Protection](https://legalinfo.mn/mn/detail/16390288615991) restricts transfers of personal data to persons in foreign countries except as permitted by law, an international treaty or the data subject's consent. Whether a specific hosting or access arrangement constitutes a covered transfer, and whether sector-specific data-residency restrictions also apply, depends on the actual data flows and the nature of the information.
++
++A claim that a provider offers "secure overseas storage" does not establish the legal basis for the transfer. Personal data, confidential commercial records and technical information that does not identify a natural person must not be treated as though the same statutory rules apply to all three.
++
++## 6. Who must be notified following a data incident?
++
++Under [Article 22.1 of the Law on Personal Data Protection](https://legalinfo.mn/mn/detail/16390288615991), a processor must notify the controller immediately after learning of a violation in the collection or processing of personal data. Article 22.2 requires the controller to notify the data subject immediately where the violation would harm that person's rights or legitimate interests.
++
++A SaaS agreement should implement those requirements through clear reporting channels, escalation contacts, the content of the initial incident report, evidence retention and responsibilities for communicating with affected persons. The contract should not substitute an arbitrary later reporting deadline for a more immediate statutory duty.
++
++Some IT service providers may also have obligations under [Article 17.1 of the Cybersecurity Law](https://legalinfo.mn/mn/detail/16390365491061). Article 24.3 addresses the point that outsourcing cybersecurity responsibilities by contract does not automatically remove statutory responsibility. The precise obligations depend on the regulated category and operations of the organisation.
++
++## 7. Plan the exit before the contract is signed
++
++A viable **exit plan** is one of the most frequently overlooked parts of a SaaS agreement. If the customer loses account access the moment the contract ends, its business may be unable to operate even after having paid all subscription fees.
++
++The agreement should define the export format, data structure, ability to retrieve information through an API or file, export deadlines, technical transition support, charges, verification of data integrity and deletion of records remaining in the old environment or backups.
++
++For personal data, [Article 19.4.5 of the Law on Personal Data Protection](https://legalinfo.mn/mn/detail/16390288615991) requires the processor, once the processing purpose is fulfilled, to return the data and processing results to the controller without keeping copies within the agreed period, and to erase data received for processing so that it cannot be reused. The parties should implement this rule alongside any other lawful retention obligations that apply to the particular records.
++
++For business-critical systems, a test export during the contract term can be more valuable than a vague promise to provide data "upon request" when a dispute has already arisen.
++
++## 8. A negotiation sequence for corporate customers
++
++Before purchasing the service, the customer should determine the maximum tolerable interruption, the data it needs to recover and the sensitivity of the information handled. It can then assess the supplier's master agreement, SLA, processing schedule, security documents and commercial charges against those requirements.
++
++For higher-risk services, ask for meaningful operational evidence: uptime reporting methodology, incident procedures, results of a data-export test and insurance information where relevant. Contract language that promises technically impossible performance is not an effective risk control.
++
++## Conclusion
++
++A well-structured SaaS agreement does more than permit software access. It establishes **measurable service obligations, workable responses to failure, enforceable data-protection arrangements and a practical route out of the platform**. These matters should be coordinated across the agreement and its schedules rather than left to generic standard terms.
++
++For a related Mongolian judicial example, see our analysis of [a Supreme Court decision on cloud data loss](/insights/cloud-data-loss-supreme-court-mongolia). Businesses may also review our [technology and digital-platform legal services](/services/technology-digital-platforms) and [contract drafting and review services](/services/contracts).
++
++**Legal sources:** [Law on Personal Data Protection, Articles 8, 14, 19, 20 and 22](https://legalinfo.mn/mn/detail/16390288615991); [Cybersecurity Law, Articles 17 and 24](https://legalinfo.mn/mn/detail/16390365491061); [Civil Code, Articles 189, 202 and 227](https://legalinfo.mn/mn/detail/299).
++
++*This article is general information based on legislation reviewed as at 5 November 2026. It does not certify the compliance of any particular SaaS provider or data-processing architecture.*
+diff --git a/content/insights/software-copyright-employee-contractor-client-mongolia-2026.md b/content/insights/software-copyright-employee-contractor-client-mongolia-2026.md
+new file mode 100644
+--- /dev/null
++++ b/content/insights/software-copyright-employee-contractor-client-mongolia-2026.md
+@@ -0,0 +1,103 @@
++---
++title: 'Who owns software copyright in Mongolia: employees, contractors and clients'
++description: 'Mongolian software copyright law explained: employee-created and commissioned code, exclusive exploitation rights, source-code handover, open-source licences and SaaS.'
++author: itgel-galsanjamts
++date: '2026-11-06'
++updated: '2026-11-06'
++category: Technology and Intellectual Property
++slug: software-copyright-employee-contractor-client-mongolia-2026
++lang: en
++relatedServices:
++  - technology-digital-platforms
++  - contracts
++  - corporate-commercial
++translation: program-hangamj-zohiogchiin-erh-ajiltan-guitsetgegch-2026
++draft: false
++---
++
++When a company develops software through its employees or commissions an outside team to build a website, application, API or fintech system, a central question arises: **who holds the copyright-related rights and who controls the source code?** Paying the developer in full or putting the system into production does not necessarily resolve every intellectual-property and operational issue.
++
++Mongolia's [Copyright Law](https://legalinfo.mn/mn/detail/16230812154721) expressly addresses the authorship of computer programs and the exclusive right to exploit programs created in the course of employment or on commission. The analysis must distinguish **who wrote the program, who holds exclusive exploitation rights, who receives the source code, and which third-party licences apply**.
++
++## 1. Authorship is not the same as the right to exploit the program
++
++Under [Article 22.1 of the Copyright Law](https://legalinfo.mn/mn/detail/16230812154721), the author of a computer program may be one or more natural persons who created it. Article 22.2 extends copyright protection to an original computer program as provided by law.
++
++The **exclusive right to exploit a program**, however, need not always remain with the person who wrote the code. The legal consequences can differ for an employee-created program, commissioned software and a pre-existing product licensed by its developer.
++
++Failure to distinguish those categories can lead to two opposite disputes. An employer may believe every piece of code written by an employee belongs to the company, while a developer may seek to reuse business-specific code elsewhere. Equally, a customer may believe it bought the entire software product when the transaction actually granted only limited access to a pre-existing platform.
++
++## 2. Software created in the course of employment
++
++[Article 22.3 of the Copyright Law](https://legalinfo.mn/mn/detail/16230812154721) establishes a default rule: unless the contract provides otherwise, the employer holds the exclusive right to exploit a computer program created by an employee **in the course of performing official duties**. The rule is not that every program written by anyone on a company's payroll automatically becomes the employer's property.
++
++Relevant evidence may include the employment contract, job description, instructions, project scope, development history and use of company resources. A separate question may arise where an employee develops software independently, outside the duties of employment.
++
++For sound internal governance, employment documents and technology policies should identify the scope of company projects, the applicable rights over resulting code and technical documentation, the handover of work products, access credentials and confidentiality obligations. A contractual record can help prevent disagreements over whether particular work fell within the employee's duties.
++
++## 3. Commissioned software: what does the customer receive by default?
++
++The same [Article 22.3](https://legalinfo.mn/mn/detail/16230812154721) provides that, **unless the contract states otherwise, the party commissioning a computer program holds the exclusive right to exploit the commissioned program**. This is an important statutory rule specifically addressing computer software created on commission.
++
++Two qualification questions remain. First, was the product actually **created on commission**, or did the supplier license an existing software product with limited configuration work? The agreement, statement of work, acceptance records and development history may matter. Second, even where the customer holds rights to newly commissioned code, that does not automatically eliminate rights in the supplier's pre-existing modules, third-party components or open-source packages.
++
++A broad clause saying that "all intellectual property transfers to the customer upon full payment" may therefore fail to explain the permissions needed to operate the complete solution. The customer should know which parts are newly created, which are background technology and which depend on licences from other rightsholders.
++
++## 4. Legal rights and practical control of source code are separate
++
++Holding an exclusive exploitation right does not by itself guarantee operational access to the software. The supplier may retain exclusive control over the source-code repository, deployment pipeline, build scripts, administrative accounts or third-party API credentials.
++
++A development agreement should consider specifying, as separate deliverables:
++
++- the source-code package, build scripts, deployment configurations and technical documentation;
++- ownership or administration of the source-code repository and handover of access rights;
++- a record of supplier background technology, third-party code and open-source components;
++- permissions to modify, maintain, further develop and have the program maintained by a replacement provider;
++- acceptance criteria, defect-remediation periods and relevant licence warranties; and
++- the process for transferring credentials, encryption keys, servers and configurations when the contract ends.
++
++This is a **practical handover checklist**, not a statement that the Copyright Law mandates every item as a separate schedule. Its purpose is to make a legal entitlement usable in a live business environment.
++
++## 5. Open-source and third-party licences must be identified
++
++A modern application may incorporate open-source libraries, paid SDKs, database products, fonts, imagery and APIs, each subject to different licence terms. A contractor cannot grant the customer unrestricted ownership of a third party's intellectual property merely by promising to do so in a development contract.
++
++For example, a commissioned application may contain newly written business-specific code alongside libraries distributed under open-source licences. The default rule for the commissioned program must be considered separately from the rights and obligations attached to those libraries.
++
++A **software bill of materials (SBOM)** or at least a licence and dependency inventory can help identify the components before final acceptance. Agreements may require the developer to disclose third-party materials, avoid unauthorised code and cooperate with the customer in addressing infringement allegations. The extent of any indemnity or licence-replacement obligation should be negotiated in light of the project and the rights the supplier actually controls.
++
++Demanding ownership of all of the supplier's pre-existing technology may be commercially unrealistic. In many projects, a durable licence to necessary background components provides better protection than a sweeping but unenforceable assignment promise.
++
++## 6. Distinguish a software licence from commissioned development
++
++Where a supplier makes its own SaaS platform available to many customers, an individual customer may neither need nor expect to acquire exclusive exploitation rights or the source code. It may need a reliable licence or subscription, continuing access to its data, export rights and assistance with a future migration.
++
++[Article 37.2 of the Copyright Law](https://legalinfo.mn/mn/detail/16230812154721) regulates licence agreements and their form and substantive terms, including the type of licence, rights granted, sublicensing, duration, territory and remuneration. The correct contractual structure depends on whether the parties are licensing a product, commissioning new development or combining both models.
++
++**A SaaS subscription, a commissioned software-development agreement and a transfer of exclusive exploitation rights are not interchangeable transactions.** One commercial arrangement may contain elements of all three, but the contract should distinguish them.
++
++## 7. Protect continuity when the developer leaves
++
++A business needs to be able to operate its software if the developer resigns, the contractor exits or a dispute arises. Copyright wording matters, but so do repository administration, CI/CD pipelines, documentation, cloud accounts, domains, credentials and key management.
++
++For critical systems, final acceptance may be made conditional on verified handover. The parties may consider a source-code escrow arrangement where appropriate, a defined period of transition support and permission for a replacement provider to maintain or adapt the system.
++
++If a payment dispute develops, the parties should already know whether and when service access may be suspended, what happens to the customer's data and what technical handover obligations survive. Leaving these matters unresolved may expose a business to operational lock-in even when its underlying intellectual-property rights are strong.
++
++## 8. Five questions for management
++
++1. Is the work employee-created software, commissioned software or a licence to an existing product?
++2. Have the parties varied the statutory default position on exclusive exploitation rights in their contracts?
++3. Is there an inventory of background technology, open-source dependencies and third-party licences?
++4. Who must hand over source code, repository access and technical records, and at what stage?
++5. Can the company continue operating and maintaining the software through another provider when the relationship ends?
++
++## Conclusion
++
++Mongolian law distinguishes **the human author of a computer program** from **the holder of the exclusive right to exploit it**. [Article 22.3 of the Copyright Law](https://legalinfo.mn/mn/detail/16230812154721) establishes default rules for employee-created and commissioned programs, while permitting the parties to agree otherwise. Those rules should be implemented alongside clear provisions on code delivery, background technology, third-party licences and business continuity.
++
++For related disputes involving deliverables, source code, SaaS and technical evidence, see our article on [IT and technology litigation in Mongolia](/insights/technology-lawyer-it-disputes-saas-api-mongolia-2026). Information on [technology and digital-platform law](/services/technology-digital-platforms) and [commercial contract drafting](/services/contracts) is also available.
++
++**Legal sources:** [Copyright Law, Articles 22 and 37](https://legalinfo.mn/mn/detail/16230812154721); [Civil Code, Article 189](https://legalinfo.mn/mn/detail/299).
++
++*This article provides general information based on legislation reviewed as at 5 November 2026. Rights to any specific program must be assessed from the relevant contracts, code history and licence arrangements.*
+diff --git a/content/insights/commercial-litigation-evidence-preparation-mongolia-2026.md b/content/insights/commercial-litigation-evidence-preparation-mongolia-2026.md
+new file mode 100644
+--- /dev/null
++++ b/content/insights/commercial-litigation-evidence-preparation-mongolia-2026.md
+@@ -0,0 +1,109 @@
++---
++title: 'Commercial disputes in Mongolia: evidence to prepare before filing a claim'
++description: 'A pre-litigation evidence checklist for Mongolian businesses: contracts, invoices, correspondence, digital logs, limitation periods, demands and settlement.'
++author: itgel-galsanjamts
++date: '2026-11-06'
++updated: '2026-11-06'
++category: Commercial Litigation
++slug: commercial-litigation-evidence-preparation-mongolia-2026
++lang: en
++relatedServices:
++  - litigation-dispute-resolution
++  - contracts
++  - corporate-commercial
++translation: ariljaany-margaan-notloh-barimt-beltgeh-2026
++draft: false
++---
++
++When a supplier fails to deliver, a customer withholds payment or an IT service falls short of its agreed scope, the most useful first step is not necessarily to file a lawsuit. A business should first establish **the legal basis of its claim, the amount sought, the relevant deadlines and the evidence supporting each component**. Delay can mean losing electronic correspondence, relying on inconsistent calculations or missing a limitation period.
++
++Under Mongolian civil procedure, the claimant is responsible for proving the factual basis of its claim, while the defendant must substantiate its objections. Effective **commercial dispute preparation** therefore begins with records created and retained during performance, not a last-minute search for documents after proceedings start.
++
++## 1. A signed contract is only the starting point
++
++The signed agreement is essential, but performance is often established through schedules, amendments, purchase orders, invoices, bank records, delivery or acceptance certificates, emails, incident reports and defect logs.
++
++The first review should identify the controlling contract version, effective amendments, signatory authority, performance deadlines and documents that trigger payment. It should also establish whether the other party accepted the work and whether defects were reported within the applicable contractual or legal period.
++
++Separate the company's own accounting reports from documents acknowledged by the counterparty. A unilateral spreadsheet may explain how a claim was calculated, but it may not establish that the debtor admitted the amount. The same distinction applies to internal incident notes versus records that objectively demonstrate what occurred.
++
++## 2. Link each remedy to its legal basis and evidence
++
++[Article 25.2.2 of Mongolia's Civil Procedure Law](https://legalinfo.mn/mn/detail/302) requires parties to prove the grounds for their claims and objections and to collect and submit relevant evidence. Article 37 governs evidence and means of proof.
++
++A useful internal working document is a **claim–legal basis–evidence matrix**:
++
++| Proposed claim | Legal or contractual basis | Principal records |
++| --- | --- | --- |
++| Outstanding principal | Performance completed; payment became due | Agreement, acceptance record, invoice, bank statement |
++| Contractual delay penalty | Relevant penalty term applies and the deadline was missed | Contract clause, date calculation, payment history |
++| Defective goods or services | Agreed quality or scope was not met | Specification, acceptance records, complaint, photographs, inspection reports |
++| Damages | A breach caused provable loss | Expense records, financial documents and expert analysis where needed |
++
++This matrix is a management tool, not a prescribed court pleading. It helps identify unsupported claims and missing documents before a demand is sent or proceedings are initiated.
++
++## 3. Preserve emails, messages and system logs properly
++
++Modern business transactions leave digital records of orders, fulfilment, handover, incidents and customer complaints. A screenshot alone may not preserve the context required to evaluate a dispute. Where lawful and feasible, retain the **original record, the time it was created, its source and relevant change history**.
++
++For emails, preserve original messages, headers, sender and recipient details, timestamps and attachments. In API or SaaS disputes, request IDs, status and error codes, server time zones, monitoring results and support tickets may matter. Records should be collected without unnecessarily exposing trade secrets or unrelated individuals' personal data.
++
++[Article 44.5 of the Civil Procedure Law](https://legalinfo.mn/mn/detail/302) refers to Article 38 of the Law on Archives and Records Management when evaluating electronic documents. Civil Procedure Law Articles 38.11–38.12 also address disputes concerning the authenticity of certain electronically signed documents and the possible role of expert examination.
++
++The goal is not to assume that technical logs guarantee success in court. It is to preserve their **origin, integrity, timing and context** so their relevance and reliability can later be assessed.
++
++## 4. Act promptly where evidence may disappear
++
++System logs may be deleted automatically after a retention period. Employee departures, changes of hosting provider, scheduled deletion of records or replacement of error logs can also compromise evidence.
++
++Where appropriate, issue an internal **legal hold** identifying relevant records, custodians, storage locations and preservation responsibilities. Keep track of when copies were made and how they relate to original records. Preserving evidence does not authorise unauthorised access to another party's system or unlawful collection of personal data.
++
++[Article 50 of the Civil Procedure Law](https://legalinfo.mn/mn/detail/302) provides a legal mechanism for securing evidence in circumstances involving a risk of change, destruction or concealment. Whether and how to apply for such measures depends on the procedural stage, the requested evidence and the reasons showing a need for preservation.
++
++## 5. Calculate the limitation period early
++
++A promise to pay, ongoing discussions or a creditor's demand letter does not automatically eliminate the risk of limitation. Under [Article 75.2.1 of the Civil Code](https://legalinfo.mn/mn/detail/299), claims arising from contractual obligations are **generally subject to a three-year limitation period**. Certain claims relating to immovable property and claims governed by specific legislation can be subject to different periods.
++
++Establish when the obligation was due, when it was breached and when the right to claim arose. Articles 76, 79 and 82 of the Civil Code contain provisions concerning commencement, interruption and consequences of expiry of limitation periods.
++
++Sending an invoice or demand **does not, by itself, invariably interrupt limitation**. The debtor's subsequent conduct, any acknowledgment, partial payment or relevant proceedings must be assessed on the facts and under the governing rules. Negotiations should never be allowed to continue without monitoring the deadline for commencing proceedings.
++
++## 6. What should a formal demand contain?
++
++Check whether a pre-action demand is mandatory under a particular law or under the contract's dispute-resolution procedure. There is no single mandatory pre-action notice applicable in exactly the same way to every commercial dispute. Nevertheless, a precise written demand can support negotiations and create a clearer record of the parties' positions.
++
++An effective demand identifies the agreement, the obligation, the relevant breach, dates, supporting documents, calculation of amounts, a reasonable deadline for performance, the response channel and potential next steps if the demand is not satisfied.
++
++Avoid presenting principal, contractual penalties and damages as one unexplained total. The counterparty should be able to understand what is being requested, why and by when.
++
++Preserve proof of delivery. For a paper notice, keep receipt or delivery records; for email, keep the relevant message, address and delivery evidence in light of the agreed notice clause. If a response follows, distinguish an acknowledgment of debt from a partial dispute or a complete rejection of liability.
++
++## 7. A seven-step business preparation process
++
++1. Identify the **final effective versions** of the agreement, schedules and amendments.
++2. Record each material performance deadline, payment and acceptance event.
++3. Match every proposed claim to a contractual or statutory basis and supporting evidence.
++4. Lawfully preserve transient materials such as email, logs, transaction records, acceptance reports and defect evidence.
++5. Check limitation periods, court or arbitration jurisdiction and mandatory notice requirements.
++6. Compare negotiation, settlement, demand and litigation options by risk, cost and likely practical outcome.
++7. Before filing, reconcile the claim amount, calculations and documentary bundle so they form a coherent case.
++
++This is a preliminary internal process. Formal evidence collection, expert examinations and court representation may require additional case-specific steps.
++
++## 8. Consider settlement before committing to litigation
++
++Litigation is not always the most valuable commercial outcome. A revised payment schedule, defect-correction programme, partial settlement, additional security or final reconciliation may protect cash flow and preserve a commercially useful relationship.
++
++The settlement document should identify **what is admitted, what is released, what obligations remain and what happens if the revised arrangement is breached**. It should also clarify whether the new agreement replaces the former obligation or merely modifies the time for performance.
++
++Participating in negotiations does not, without a legally relevant event, automatically preserve the right to sue or extend the limitation period. Maintain a separate deadline register throughout the discussions.
++
++## Conclusion
++
++**The quality of evidence matters as much as the value of the claim in commercial litigation.** A business that connects each remedy to the governing agreement, evidence of performance, payment records, communications and applicable deadlines can assess its options earlier. A poorly documented claim, by contrast, may be difficult to enforce even when the underlying commercial grievance is legitimate.
++
++For a related analysis, see [limitation periods and acknowledgment of debt under Mongolian law](/insights/contractual-limitation-period-and-acknowledgment-of-debt-mongolia). For case assessment and representation, see our [commercial litigation and dispute-resolution services](/services/litigation-dispute-resolution) and [contract law services](/services/contracts).
++
++**Legal sources:** [Civil Procedure Law, Articles 25, 37–38, 44 and 50](https://legalinfo.mn/mn/detail/302); [Civil Code, Articles 75, 76, 79, 82, 227 and 232](https://legalinfo.mn/mn/detail/299).
++
++*This article provides general information based on legislation reviewed as at 5 November 2026. Jurisdiction, limitation and evidentiary requirements must be assessed in relation to each particular dispute.*

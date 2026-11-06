@@ -11,6 +11,7 @@ relatedServices:
   - technology-digital-platforms
   - contracts
   - corporate-commercial
+translation: software-copyright-employee-contractor-client-mongolia-2026
 draft: false
 ---
 
