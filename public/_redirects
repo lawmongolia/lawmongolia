@@ -1,6 +1,6 @@
-# LawMongolia - Search Console 44 incorrect-language article URLs (2026-11-02)
-# Each destination is the matching translation; these are permanent HTTP 301 redirects.
-# Keep valid article URLs untouched. Use with Cloudflare Workers Static Assets.
+# LawMongolia - GSC 404 incorrect-language redirects (2026-11-09)
+# Preserve all existing redirects; below six GSC source URLs are newly added.
+# WARNING: 4 old rules have destination slugs without article files; these require separate editorial fixes.
 /mn/insights/employee-discipline-deadlines-procedure-mongolia-2026 /mn/insights/sahilgiin-shiitgel-nogduulah-hugatsaa-tailbar-2026 301
 /insights/sahilgiin-shiitgel-nogduulah-hugatsaa-tailbar-2026 /insights/employee-discipline-deadlines-procedure-mongolia-2026 301
 /insights/itgemjlel-hugatsaa-huchingui-bolgoh-2026 /insights/power-of-attorney-validity-revocation-mongolia-2026 301
@@ -45,3 +45,11 @@
 /insights/bnpl-daraa-tuluh-zeel-gereenii-angilal /insights/bnpl-deferred-payment-credit-classification-mongolia 301
 /mn/insights/contractual-limitation-period-and-acknowledgment-of-debt-mongolia /mn/insights/gereenii-shaardlaga-hoon-heleltseh-hugatsaa-or-huleen-zovshooroh 301
 /insights/undeslelgui-ajlaas-halagdsan-bol-yah-ve /insights/unlawful-dismissal-mongolia 301
+
+# Six missing GSC 404 source URLs (added 2026-11-09)
+/en/insights/contractual-limitation-period-and-acknowledgment-of-debt-mongolia /insights/contractual-limitation-period-and-acknowledgment-of-debt-mongolia 301
+/mn/insights/arbitration-clause-court-claim-mongolia-2026 /mn/insights/arbitryn-zaalt-bval-shuuhed-nehmeljlel-gargah-2026 301
+/insights/arbitryn-zaalt-bval-shuuhed-nehmeljlel-gargah-2026 /insights/arbitration-clause-court-claim-mongolia-2026 301
+/insights/turshiltaar-ajilluulah-hugatsaa-tsalin-geree-2026 /insights/probation-period-extension-pay-mongolia-2026 301
+/insights/ul-ursulduh-geree-1-jil-50-huvi-2026 /insights/employee-noncompete-one-year-compensation-mongolia-2026 301
+/insights/zahirgaany-akt-gomdol-30-honog-shuuh-2026 /insights/challenge-administrative-act-30-days-mongolia-2026 301
