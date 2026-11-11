@@ -1,48 +1,35 @@
-# LawMongolia — Монгол/Англи 4 хос нийтлэлийн засварласан багц
+# LawMongolia.mn — 4 шинэ нийтлэл / 2 хэл
 
-Бэлтгэсэн: 2026-11-06
+**Огноо:** 2026-11-11
+**Хамрах хүрээ:** Монгол 4 + Англи 4 = нийт 8 Markdown файл. 4 бие даасан сэдэв, сэдэв бүр хоёр хэлтэй.
+**Эх репозитор:** `lawmongolia/lawmongolia`, `main` салбарын `content/insights/` бүтэцтэй харьцуулсан.
 
-## Ямар алдааг зассан бэ?
+## GitHub Desktop ашиглан нийтлэх
 
-2026-11-05-нд гаргасан ZIP-д 4 монгол нийтлэл байсан боловч англи хувилбарууд байгаагүй. 2026-11-06-ны шалгалтаар уг 4 монгол нийтлэл GitHub-ийн `lawmongolia/lawmongolia` репозиторийн `main` салбар болон амьд сайтад нэмэгдсэн, харин тохирох англи файлууд ороогүй байв.
+1. ZIP файлыг **задална**. ZIP өөрийг нь GitHub-д хуулж болохгүй.
+2. Энэ багц дахь `content/insights/` хавтсанд байгаа **8 `.md` файлыг** таны локал `lawmongolia/content/insights/` хавтсанд хуулна.
+3. `README_MN.md` ба `QA_AND_SOURCES.md` файлуудыг репозиторид хуулах шаардлагагүй.
+4. GitHub Desktop-ийн **Changes** хэсэгт зөвхөн 8 шинэ `.md` файл нэмэгдсэнийг, хуучин файл устсан/солигдоогүйг шалгана.
+5. `Commit to main` -> `Push origin` (эсвэл урьдчилан review хийх бол шинэ branch/PR) хийнэ. **Push нь сайт амжилттай нийтлэгдсэнийг батлахгүй.**
+6. Cloudflare deployment амжилттай дууссаны дараа URL тус бүр `200` буцаах, canonical ба hreflang зөв гарах, sitemap-д орсныг шалгана.
+7. Google Search Console URL Inspection-д шинэ хуудасны **canonical URL** тус бүрийг тусад нь шалгана. Индексжүүлэлт баталгаатай үр дүн биш.
 
-Энэ багцад:
-- **4 шинэ англи эх** (`lang: en`, `date: 2026-11-06`);
-- **4 монгол эхийн зөвхөн YAML metadata засварласан хуулбар** (`translation: англи-slug`); эх бичвэр, URL, нийтэлсэн огноо хэвээр;
-- `GIT_APPLY.patch` — шинэ англи файлууд болон монгол metadata-ийн хамгийн бага өөрчлөлтийг хэрэглэх patch;
-- `SOURCES_AND_QA.md` — эх сурвалж, эрсдэл, QA;
-- `ARTICLE_MAPPING.csv` — хоёр хэлний URL болон файлын харьцуулалт багтсан.
+## Нийтлэлийн URL
 
-## Нийтлэл тус бүрийн англи гарчиг
+| Сэдэв | Монгол URL | Англи URL |
+|---|---|---|
+| Компанийн due diligence | `/mn/insights/kompani-hudaldan-avah-legal-due-diligence-2026` | `/insights/company-acquisition-legal-due-diligence-mongolia-2026` |
+| Программ хөгжүүлэлтийн milestone төлбөр | `/mn/insights/programm-hugjuulelt-guitsetgel-tulbur-huleeltseh-geree-2026` | `/insights/software-development-milestone-payments-acceptance-mongolia-2026` |
+| Мэдээлэл боловсруулах DPA | `/mn/insights/huviin-medeelel-bolovsruulah-geree-dpa-mongolia-2026` | `/insights/data-processing-agreement-dpa-mongolia-business-2026` |
+| Компани хооронд ажилтан шилжүүлэх | `/mn/insights/grupp-kompani-hoorond-ajiltan-shiljuuleh-hodolmor-2026` | `/insights/employee-transfer-between-group-companies-mongolia-2026` |
 
-1. **Limitation of liability in Mongolian commercial contracts: what businesses should review**
-2. **SaaS contracts in Mongolia: SLAs, data protection and a workable exit plan**
-3. **Who owns software copyright in Mongolia: employees, contractors and clients**
-4. **Commercial disputes in Mongolia: evidence to prepare before filing a claim**
+## Сайтын SEO тохиргоотой нийцүүлсэн нь
 
-## Нийтлэх арга
+- `date`, `updated`, `author`, `lang`, `slug`, `description`, `relatedServices`, `translation`, `draft: false` талбар оруулсан.
+- Хоёр хэлний нийтлэлүүдийн `translation` талбар харилцан заана.
+- `lib/insights.ts` нь `content/insights/*.md`-ийг уншдаг; `app/sitemap.ts` нь нийтлэлийн URL-уудыг автоматаар үүсгэдэг. Тиймээс зөвхөн эдгээр 8 файл нэмэхэд үндсэн сайтын `sitemap.ts`, `robots.ts`, `_redirects` болон өмнөх нийтлэлд засвар хийх шаардлагагүй гэж үзэв.
+- Сайтын `metadata` тохиргоо SEO title, description, canonical, hreflang-ийг Markdown frontmatter-ээс авдаг. **Live deployment хийхээс өмнө URL-ын гаралтыг дахин баталгаажуул.**
 
-Дараах файлуудыг төслийн `content/insights/` хавтсанд байрлуулах байдлаар бэлтгэсэн. Шинэ 4 англи файл нэмэгдэнэ; одоогийн 4 монгол файл дээр **зөвхөн `translation` талбар** нэмэгдэнэ. `title`, `description`, `slug`, `date`, `updated`, нийтлэлийн агуулга өөрчлөгдөхгүй.
+## Чанар, эрх зүйн анхааруулга
 
-Сайтын `lib/insights.ts` нь англи, монгол Markdown-ийг frontmatter-ээр уншдаг. `app/(en)/insights/[[...slug]]/page.tsx` болон `app/(mn)/mn/insights/[[...slug]]/page.tsx` нь `translation`-ийн дагуу хоёр хэлний `hreflang` холбоос үүсгэнэ. `app/sitemap.ts` шинэ нийтлэл тус бүрийг автоматаар жагсаадаг. **Сайтын код, одоо индексжсэн хуудсууд, URL slug-уудыг солих шаардлагагүй.**
-
-### Git patch ашиглах бол
-
-Репозиторийн үндсэн хавтсанд:
-
-```bash
-git apply --check GIT_APPLY.patch
-git apply GIT_APPLY.patch
-```
-
-Patch-ийг 2026-11-06-ны `main` хувилбарт байсан монгол эхүүдтэй харьцуулж, шинэ англи файлууд байхгүй нөхцөлд тестэлсэн. Өөр хэрэглэгч зэрэг зассан бол patch-ийн зөрчлийг эхлээд үнэлнэ; одоо байгаа файлыг шууд дарж хуулж болохгүй.
-
-### Нийтлэхээс өмнөх хяналт
-
-1. Эх сурвалж/заалтын эцсийн редакцын хяналт хийж, мэргэжлийн орчуулгын эрх зүйн утгыг баталгаажуулна.
-2. Дөрвөн англи slug давхардаагүй эсэх, хоёр талын `translation` холболт хоёр чиглэлдээ таарч байгаа эсэхийг шалгана.
-3. `npm run build` эсвэл репозиторийн бодит build скриптээр build хийж, 8 URL-ийн хуудас, canonical/hreflang, sitemap, дотоод холбоосыг шалгана.
-4. Англи програмын зохиогчийн эрхийн сэдэв өмнө индексжсэн `/insights/commissioned-software-source-code-copyright-mongolia-2026`-тай ойролцоо. SEO cannibalization үүсэх эрсдэлийг редакцын түвшинд үнэлнэ; хуучин URL-ыг устгах, redirect хийхийг энэхүү багц санал болгоогүй.
-5. Нийтлэлийн дараа Search Console URL Inspection ашиглаж индексжүүлэлтийн бодит төлөвийг хянаж болно. Индексжих эсвэл эрэмбэ дээшлэх баталгаа байхгүй.
-
-**Энэ багц бэлтгэхдээ GitHub-д commit, PR, merge, сайт дээр шинэ нийтлэлт хийгээгүй.** Веб нийтлэл гаргах шийдвэрийг эрх бүхий этгээд баталгаажуулсны дараа хэрэгжүүлнэ.
+Албан ёсны хууль тогтоомжийн заалтыг 2026-11-11-нд legalinfo.mn-ээс шалгасан. Нийтлэлүүд нь зөвхөн нийтлэг мэдээлэл; тодорхой компани, үйлчлүүлэгчийн баримт, маргаан, нууц мэдээлэл ороогүй. Хуулийн заалт, салбарын журам нийтлэгдсэний дараа өөрчлөгдөж болно. Google индексжүүлэх, хайлтад тодорхой байр эзлэхийг баталгаажуулахгүй.
